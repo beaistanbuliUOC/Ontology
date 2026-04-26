@@ -58,7 +58,7 @@ xsd:date rdf:type rdfs:Datatype .
 ###  http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorizedBy
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorizedBy> rdf:type owl:ObjectProperty ,
                                                                                                owl:FunctionalProperty ;
-                                                                                      rdfs:domain <https://schema.org/Organization> ;
+                                                                                      rdfs:domain <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer> ;
                                                                                       rdfs:range <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority> ;
                                                                                       rdfs:comment "Relation between a Manufacturer and the corresponding competent authority"@en ;
                                                                                       rdfs:label "Authorized by"@en .
@@ -131,7 +131,7 @@ xsd:date rdf:type rdfs:Datatype .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasManufacturer> rdf:type owl:ObjectProperty ,
                                                                                                   owl:FunctionalProperty ;
                                                                                          rdfs:domain <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device> ;
-                                                                                         rdfs:range <https://schema.org/Organization> ;
+                                                                                         rdfs:range <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer> ;
                                                                                          rdfs:comment "Relation between a device and its incident"@en ;
                                                                                          rdfs:label "has manufacturer?"@en .
 
@@ -176,7 +176,7 @@ xsd:date rdf:type rdfs:Datatype .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#reportingBy> rdf:type owl:ObjectProperty ,
                                                                                               owl:FunctionalProperty ;
                                                                                      rdfs:domain <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident> ;
-                                                                                     rdfs:range <https://schema.org/Organization> ;
+                                                                                     rdfs:range <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer> ;
                                                                                      rdfs:comment "Relation between incident and its manufacturer"@en ;
                                                                                      rdfs:label "Reporting by"@en .
 
@@ -194,7 +194,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://schema.org/email
 <http://schema.org/email> rdf:type owl:DatatypeProperty ;
-                          rdfs:domain <https://schema.org/Organization> ;
+                          rdfs:domain <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer> ;
                           rdfs:range xsd:string ;
                           rdfs:comment "Email of the manufacturer"@en ;
                           rdfs:label "email"@en .
@@ -224,7 +224,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorization_number
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorization_number> rdf:type owl:DatatypeProperty ;
-                                                                                              rdfs:domain <https://schema.org/Organization> ;
+                                                                                              rdfs:domain <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer> ;
                                                                                               rdfs:range xsd:string ;
                                                                                               rdfs:comment "Auth number of the manufacturer"@en ;
                                                                                               rdfs:label "Auth number"@en .
@@ -281,7 +281,7 @@ It can take value:true or false"""@en ;
 
 ###  http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_srn
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_srn> rdf:type owl:DatatypeProperty ;
-                                                                                     rdfs:domain <https://schema.org/Organization> ;
+                                                                                     rdfs:domain <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer> ;
                                                                                      rdfs:range xsd:string ;
                                                                                      rdfs:comment "EUDAMED serial registration number"@en ;
                                                                                      rdfs:label "EUDAMED SRN"@en .
@@ -641,7 +641,7 @@ Values: critical, serious, moderate."""@en ;
                                                                                                 [ rdf:type owl:Restriction ;
                                                                                                   owl:onProperty <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasManufacturer> ;
                                                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                                  owl:onClass <https://schema.org/Organization>
+                                                                                                  owl:onClass <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer>
                                                                                                 ] ,
                                                                                                 [ rdf:type owl:Restriction ;
                                                                                                   owl:onProperty <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskClass> ;
@@ -813,14 +813,14 @@ Values: critical, serious, moderate."""@en ;
                                                                                                     owl:onClass <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#IncidentType>
                                                                                                   ] ,
                                                                                                   [ rdf:type owl:Restriction ;
-                                                                                                    owl:onProperty <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasManufacturer> ;
-                                                                                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                                    owl:onClass <https://schema.org/Organization>
-                                                                                                  ] ,
-                                                                                                  [ rdf:type owl:Restriction ;
                                                                                                     owl:onProperty <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRisk> ;
                                                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                                                                                     owl:onClass <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk>
+                                                                                                  ] ,
+                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                    owl:onProperty <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#reportingBy> ;
+                                                                                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                    owl:onClass <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer>
                                                                                                   ] ,
                                                                                                   [ rdf:type owl:Restriction ;
                                                                                                     owl:onProperty <http://schema.org/description> ;
@@ -946,6 +946,42 @@ Values: critical, serious, moderate."""@en ;
                                                                                                       <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Software> ;
                                                                                      rdfs:comment "Risks caused by a malfunction"@en ;
                                                                                      rdfs:label "Malfunction"@en .
+
+
+###  http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer
+<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                        owl:onProperty <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorizedBy> ;
+                                                                                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                        owl:onClass <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority>
+                                                                                                      ] ,
+                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                        owl:onProperty <http://schema.org/email> ;
+                                                                                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                        owl:onDataRange xsd:string
+                                                                                                      ] ,
+                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                        owl:onProperty <http://schema.org/location> ;
+                                                                                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                        owl:onDataRange xsd:string
+                                                                                                      ] ,
+                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                        owl:onProperty <http://schema.org/name> ;
+                                                                                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                        owl:onDataRange xsd:string
+                                                                                                      ] ,
+                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                        owl:onProperty <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorization_number> ;
+                                                                                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                        owl:onDataRange xsd:string
+                                                                                                      ] ,
+                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                        owl:onProperty <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_srn> ;
+                                                                                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                        owl:onDataRange xsd:string
+                                                                                                      ] ;
+                                                                                      rdfs:comment "Class of manufacturer"@en ;
+                                                                                      rdfs:label "Manufacturer"@en .
 
 
 ###  http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Material
@@ -1127,42 +1163,6 @@ Values: critical, serious, moderate."""@en ;
                                                                                     rdfs:label "User notice"@en .
 
 
-###  https://schema.org/Organization
-<https://schema.org/Organization> rdf:type owl:Class ;
-                                  rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                    owl:onProperty <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorizedBy> ;
-                                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                    owl:onClass <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority>
-                                                  ] ,
-                                                  [ rdf:type owl:Restriction ;
-                                                    owl:onProperty <http://schema.org/email> ;
-                                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                    owl:onDataRange xsd:string
-                                                  ] ,
-                                                  [ rdf:type owl:Restriction ;
-                                                    owl:onProperty <http://schema.org/location> ;
-                                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                    owl:onDataRange xsd:string
-                                                  ] ,
-                                                  [ rdf:type owl:Restriction ;
-                                                    owl:onProperty <http://schema.org/name> ;
-                                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                    owl:onDataRange xsd:string
-                                                  ] ,
-                                                  [ rdf:type owl:Restriction ;
-                                                    owl:onProperty <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorization_number> ;
-                                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                    owl:onDataRange xsd:string
-                                                  ] ,
-                                                  [ rdf:type owl:Restriction ;
-                                                    owl:onProperty <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_srn> ;
-                                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                    owl:onDataRange xsd:string
-                                                  ] ;
-                                  rdfs:comment "Class of manufacturer"@en ;
-                                  rdfs:label "Manufacturer"@en .
-
-
 #################################################################
 #    Individuals
 #################################################################
@@ -1244,7 +1244,7 @@ Values: critical, serious, moderate."""@en ;
 
 ###  http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MAN-001
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MAN-001> rdf:type owl:NamedIndividual ,
-                                                                                          <https://schema.org/Organization> ,
+                                                                                          <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer> ,
                                                                                           [ rdf:type owl:Restriction ;
                                                                                             owl:onProperty <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorizedBy> ;
                                                                                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
@@ -1263,7 +1263,7 @@ Values: critical, serious, moderate."""@en ;
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RSK-001> rdf:type owl:NamedIndividual ,
                                                                                           <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk> ,
                                                                                           [ rdf:type owl:Restriction ;
-                                                                                            owl:onProperty <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasDeviceType> ;
+                                                                                            owl:onProperty <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasAffectedDeviceType> ;
                                                                                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                                                                             owl:onClass <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Active>
                                                                                           ] ,

@@ -41,7 +41,7 @@
   "@id" : "_:genid12",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://schema.org/Organization"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasManufacturer"
@@ -197,10 +197,10 @@
   "@id" : "_:genid23",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://schema.org/Organization"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasManufacturer"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRisk"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -210,10 +210,10 @@
   "@id" : "_:genid24",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRisk"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#reportingBy"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -366,10 +366,10 @@
   "@id" : "_:genid35",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasAffectedDeviceType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorizedBy"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -378,11 +378,11 @@
 }, {
   "@id" : "_:genid36",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskCategory"
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskCategory"
+    "@id" : "http://schema.org/email"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -391,11 +391,11 @@
 }, {
   "@id" : "_:genid37",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType"
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskType"
+    "@id" : "http://schema.org/location"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -408,7 +408,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://schema.org/description"
+    "@id" : "http://schema.org/name"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -421,7 +421,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://schema.org/name"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorization_number"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -443,7 +443,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#imdrf_code"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_srn"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -452,11 +452,11 @@
 }, {
   "@id" : "_:genid41",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#probability"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasAffectedDeviceType"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -465,11 +465,11 @@
 }, {
   "@id" : "_:genid42",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskCategory"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#severity"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskCategory"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -479,10 +479,10 @@
   "@id" : "_:genid43",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorizedBy"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskType"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -495,7 +495,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://schema.org/email"
+    "@id" : "http://schema.org/description"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -508,7 +508,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://schema.org/location"
+    "@id" : "http://schema.org/name"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -521,7 +521,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://schema.org/name"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#imdrf_code"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -534,7 +534,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorization_number"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#probability"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -547,7 +547,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_srn"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#severity"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -651,7 +651,7 @@
     "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Active"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasDeviceType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasAffectedDeviceType"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -821,7 +821,7 @@
     "@value" : "Email of the manufacturer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://schema.org/Organization"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1778,7 +1778,7 @@
     "@value" : "SRN-IE-MED-0001"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://schema.org/Organization"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer"
   }, {
     "@id" : "_:genid54"
   } ],
@@ -1848,6 +1848,30 @@
     "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Radiation"
   }, {
     "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Software"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Class of manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Manufacturer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid35"
+  }, {
+    "@id" : "_:genid36"
+  }, {
+    "@id" : "_:genid37"
+  }, {
+    "@id" : "_:genid38"
+  }, {
+    "@id" : "_:genid39"
+  }, {
+    "@id" : "_:genid40"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Material",
@@ -2066,21 +2090,21 @@
     "@value" : "Risk"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid35"
-  }, {
-    "@id" : "_:genid36"
-  }, {
-    "@id" : "_:genid37"
-  }, {
-    "@id" : "_:genid38"
-  }, {
-    "@id" : "_:genid39"
-  }, {
-    "@id" : "_:genid40"
-  }, {
     "@id" : "_:genid41"
   }, {
     "@id" : "_:genid42"
+  }, {
+    "@id" : "_:genid43"
+  }, {
+    "@id" : "_:genid44"
+  }, {
+    "@id" : "_:genid45"
+  }, {
+    "@id" : "_:genid46"
+  }, {
+    "@id" : "_:genid47"
+  }, {
+    "@id" : "_:genid48"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskCategory",
@@ -2243,7 +2267,7 @@
     "@value" : "Auth number of the manufacturer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://schema.org/Organization"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2260,7 +2284,7 @@
     "@value" : "Relation between a Manufacturer and the corresponding competent authority"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://schema.org/Organization"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2379,7 +2403,7 @@
     "@value" : "EUDAMED serial registration number"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://schema.org/Organization"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2539,7 +2563,7 @@
     "@value" : "has manufacturer?"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://schema.org/Organization"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRisk",
@@ -2828,7 +2852,7 @@
     "@value" : "Reporting by"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://schema.org/Organization"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#scope",
@@ -2910,28 +2934,4 @@
 }, {
   "@id" : "http://www.w3.org/2001/XMLSchema#date",
   "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
-}, {
-  "@id" : "https://schema.org/Organization",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Class of manufacturer"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Manufacturer"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "_:genid43"
-  }, {
-    "@id" : "_:genid44"
-  }, {
-    "@id" : "_:genid45"
-  }, {
-    "@id" : "_:genid46"
-  }, {
-    "@id" : "_:genid47"
-  }, {
-    "@id" : "_:genid48"
-  } ]
 } ]

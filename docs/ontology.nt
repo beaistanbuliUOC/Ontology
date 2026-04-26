@@ -55,7 +55,7 @@
 # http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorizedBy
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorizedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorizedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorizedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Organization> .
+<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorizedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer> .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorizedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority> .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorizedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a Manufacturer and the corresponding competent authority"@en .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorizedBy> <http://www.w3.org/2000/01/rdf-schema#label> "Authorized by"@en .
@@ -120,7 +120,7 @@
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasManufacturer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasManufacturer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasManufacturer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device> .
-<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasManufacturer> <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/Organization> .
+<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasManufacturer> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer> .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasManufacturer> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a device and its incident"@en .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasManufacturer> <http://www.w3.org/2000/01/rdf-schema#label> "has manufacturer?"@en .
 # 
@@ -160,7 +160,7 @@
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#reportingBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#reportingBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#reportingBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident> .
-<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#reportingBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/Organization> .
+<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#reportingBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer> .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#reportingBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between incident and its manufacturer"@en .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#reportingBy> <http://www.w3.org/2000/01/rdf-schema#label> "Reporting by"@en .
 # 
@@ -181,7 +181,7 @@
 # 
 # http://schema.org/email
 <http://schema.org/email> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://schema.org/email> <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Organization> .
+<http://schema.org/email> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer> .
 <http://schema.org/email> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://schema.org/email> <http://www.w3.org/2000/01/rdf-schema#comment> "Email of the manufacturer"@en .
 <http://schema.org/email> <http://www.w3.org/2000/01/rdf-schema#label> "email"@en .
@@ -207,7 +207,7 @@
 # 
 # http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorization_number
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorization_number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorization_number> <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Organization> .
+<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorization_number> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer> .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorization_number> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorization_number> <http://www.w3.org/2000/01/rdf-schema#comment> "Auth number of the manufacturer"@en .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorization_number> <http://www.w3.org/2000/01/rdf-schema#label> "Auth number"@en .
@@ -256,7 +256,7 @@
 # 
 # http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_srn
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_srn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_srn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Organization> .
+<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_srn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer> .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_srn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_srn> <http://www.w3.org/2000/01/rdf-schema#comment> "EUDAMED serial registration number"@en .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_srn> <http://www.w3.org/2000/01/rdf-schema#label> "EUDAMED SRN"@en .
@@ -585,7 +585,7 @@ _:genid11 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.
 _:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasDeviceType> .
 _:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
-_:genid12 <http://www.w3.org/2002/07/owl#onClass> <https://schema.org/Organization> .
+_:genid12 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer> .
 _:genid12 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 _:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasManufacturer> .
 _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
@@ -747,14 +747,14 @@ _:genid22 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.
 _:genid22 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasIncidentType> .
 _:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid23 .
-_:genid23 <http://www.w3.org/2002/07/owl#onClass> <https://schema.org/Organization> .
+_:genid23 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk> .
 _:genid23 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasManufacturer> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRisk> .
 _:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid24 .
-_:genid24 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk> .
+_:genid24 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer> .
 _:genid24 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRisk> .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#reportingBy> .
 _:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid25 .
 _:genid25 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
@@ -874,6 +874,41 @@ _:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Malfunction> <http://www.w3.org/2000/01/rdf-schema#comment> "Risks caused by a malfunction"@en .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Malfunction> <http://www.w3.org/2000/01/rdf-schema#label> "Malfunction"@en .
 # 
+# http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer
+<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid35 .
+_:genid35 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority> .
+_:genid35 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid35 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorizedBy> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid36 .
+_:genid36 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid36 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid36 <http://www.w3.org/2002/07/owl#onProperty> <http://schema.org/email> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid37 .
+_:genid37 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid37 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid37 <http://www.w3.org/2002/07/owl#onProperty> <http://schema.org/location> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid38 .
+_:genid38 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid38 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid38 <http://www.w3.org/2002/07/owl#onProperty> <http://schema.org/name> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39 .
+_:genid39 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid39 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid39 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorization_number> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid40 .
+_:genid40 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid40 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid40 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_srn> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer> <http://www.w3.org/2000/01/rdf-schema#comment> "Class of manufacturer"@en .
+<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer> <http://www.w3.org/2000/01/rdf-schema#label> "Manufacturer"@en .
+# 
 # http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Material
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Material> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType> .
@@ -932,46 +967,46 @@ _:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid35 .
-_:genid35 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType> .
-_:genid35 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid35 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasAffectedDeviceType> .
-_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid36 .
-_:genid36 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskCategory> .
-_:genid36 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid36 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskCategory> .
-_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid37 .
-_:genid37 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType> .
-_:genid37 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid37 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskType> .
-_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid38 .
-_:genid38 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
-_:genid38 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid38 <http://www.w3.org/2002/07/owl#onProperty> <http://schema.org/description> .
-_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39 .
-_:genid39 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
-_:genid39 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid39 <http://www.w3.org/2002/07/owl#onProperty> <http://schema.org/name> .
-_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid40 .
-_:genid40 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
-_:genid40 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid40 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#imdrf_code> .
-_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid41 .
-_:genid41 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid41 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType> .
 _:genid41 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid41 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#probability> .
+_:genid41 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasAffectedDeviceType> .
 _:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid42 .
-_:genid42 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid42 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskCategory> .
 _:genid42 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid42 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#severity> .
+_:genid42 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskCategory> .
 _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid43 .
+_:genid43 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType> .
+_:genid43 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid43 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskType> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid44 .
+_:genid44 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid44 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid44 <http://www.w3.org/2002/07/owl#onProperty> <http://schema.org/description> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid45 .
+_:genid45 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid45 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid45 <http://www.w3.org/2002/07/owl#onProperty> <http://schema.org/name> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid46 .
+_:genid46 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid46 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid46 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#imdrf_code> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid47 .
+_:genid47 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid47 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid47 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#probability> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid48 .
+_:genid48 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid48 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid48 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#severity> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk> <http://www.w3.org/2000/01/rdf-schema#comment> "Class of risk"@en .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk> <http://www.w3.org/2000/01/rdf-schema#label> "Risk"@en .
 # 
@@ -1033,41 +1068,6 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#UserNotice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActionType> .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#UserNotice> <http://www.w3.org/2000/01/rdf-schema#comment> "It is an official communication from a manufacturer to users informing them of a safety risk with a medical device and providing instructions to prevent harm."@en .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#UserNotice> <http://www.w3.org/2000/01/rdf-schema#label> "User notice"@en .
-# 
-# https://schema.org/Organization
-<https://schema.org/Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://schema.org/Organization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid43 .
-_:genid43 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority> .
-_:genid43 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid43 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorizedBy> .
-_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://schema.org/Organization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid44 .
-_:genid44 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
-_:genid44 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid44 <http://www.w3.org/2002/07/owl#onProperty> <http://schema.org/email> .
-_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://schema.org/Organization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid45 .
-_:genid45 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
-_:genid45 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid45 <http://www.w3.org/2002/07/owl#onProperty> <http://schema.org/location> .
-_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://schema.org/Organization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid46 .
-_:genid46 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
-_:genid46 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid46 <http://www.w3.org/2002/07/owl#onProperty> <http://schema.org/name> .
-_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://schema.org/Organization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid47 .
-_:genid47 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
-_:genid47 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid47 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorization_number> .
-_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://schema.org/Organization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid48 .
-_:genid48 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
-_:genid48 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid48 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_srn> .
-_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://schema.org/Organization> <http://www.w3.org/2000/01/rdf-schema#comment> "Class of manufacturer"@en .
-<https://schema.org/Organization> <http://www.w3.org/2000/01/rdf-schema#label> "Manufacturer"@en .
 # 
 # 
 # 
@@ -1152,7 +1152,7 @@ _:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MAN-001
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MAN-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MAN-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> .
+<http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MAN-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer> .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MAN-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid54 .
 _:genid54 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#HPRA> .
 _:genid54 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
@@ -1172,7 +1172,7 @@ _:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RSK-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid55 .
 _:genid55 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Active> .
 _:genid55 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid55 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasDeviceType> .
+_:genid55 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasAffectedDeviceType> .
 _:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RSK-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid56 .
 _:genid56 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceFailure> .
