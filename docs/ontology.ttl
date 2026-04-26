@@ -216,29 +216,28 @@ xsd:date rdf:type rdfs:Datatype .
 ###  http://schema.org/description
 <http://schema.org/description> rdf:type owl:DatatypeProperty ;
                                 rdfs:range xsd:string ;
-                                rdfs:comment "To define the description od different stuff"@en ;
+                                rdfs:comment "It is a description to different stuff"@en ;
                                 rdfs:label "Description"@en .
 
 
 ###  http://schema.org/email
 <http://schema.org/email> rdf:type owl:DatatypeProperty ;
-                          rdfs:domain <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer> ;
                           rdfs:range xsd:string ;
                           rdfs:comment "Email of the manufacturer"@en ;
-                          rdfs:label "email"@en .
+                          rdfs:label "Email"@en .
 
 
 ###  http://schema.org/location
 <http://schema.org/location> rdf:type owl:DatatypeProperty ;
                              rdfs:range xsd:string ;
-                             rdfs:comment "It  refers to a country"@en ;
+                             rdfs:comment "It refers to the affected countries or those reporting."@en ;
                              rdfs:label "Location"@en .
 
 
 ###  http://schema.org/name
 <http://schema.org/name> rdf:type owl:DatatypeProperty ;
                          rdfs:range xsd:string ;
-                         rdfs:comment "Name property for different classes"@en ;
+                         rdfs:comment "To name different stuff"@en ;
                          rdfs:label "Name"@en .
 
 
@@ -615,11 +614,6 @@ Values: critical, serious, moderate."""@en ;
                                                                                                             owl:onDataRange xsd:string
                                                                                                           ] ,
                                                                                                           [ rdf:type owl:Restriction ;
-                                                                                                            owl:onProperty <http://schema.org/location> ;
-                                                                                                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                                            owl:onDataRange xsd:string
-                                                                                                          ] ,
-                                                                                                          [ rdf:type owl:Restriction ;
                                                                                                             owl:onProperty <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#action_date> ;
                                                                                                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                                                                                             owl:onDataRange xsd:date
@@ -849,11 +843,6 @@ Values: critical, serious, moderate."""@en ;
                                                                                                     owl:onProperty <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#reportingBy> ;
                                                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                                                                                     owl:onClass <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer>
-                                                                                                  ] ,
-                                                                                                  [ rdf:type owl:Restriction ;
-                                                                                                    owl:onProperty <http://schema.org/description> ;
-                                                                                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                                                    owl:onDataRange xsd:string
                                                                                                   ] ,
                                                                                                   [ rdf:type owl:Restriction ;
                                                                                                     owl:onProperty <http://schema.org/location> ;
@@ -1236,7 +1225,6 @@ Values: critical, serious, moderate."""@en ;
                                                                                            ] ;
                                                                                   <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasIncident> <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#INC-001> ;
                                                                                   <http://schema.org/description> "Safety alert issued to all implanting centres regarding anticoagulation protocol update for HeartMate 3 to reduce device thrombosis risk. INR target range revised to 2.0â€“3.0" ;
-                                                                                  <http://schema.org/location> "EU-wide" ;
                                                                                   <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#action_date> "2024-02-01"^^xsd:date ;
                                                                                   <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#devices_affected> 850 ;
                                                                                   <http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_fsca_ref> "EU-FSCA-2024-000001" ;
