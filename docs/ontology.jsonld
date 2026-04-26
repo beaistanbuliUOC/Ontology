@@ -2946,11 +2946,11 @@
   } ],
   "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
     "@language" : "en",
-    "@value" : "MDR"
+    "@value" : "mdr"
   } ],
   "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
     "@language" : "en",
-    "@value" : "mdr"
+    "@value" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR/"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
     "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR/1.0.0"
