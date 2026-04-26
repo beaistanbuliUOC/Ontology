@@ -1,23 +1,32 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#"
      xml:base="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:schema="http://schema.org/"
      xmlns:clasificacion_MDR_IVDR="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR">
-        <dc:creator xml:lang="en">Beatriz Istanbouli Sahelieh</dc:creator>
-        <dc:description xml:lang="en">An ontology designed to map the various high-risk medical devices, as well as in vitro diagnostic devices, in accordance with European regulations under the MDR (medical devices in classes I, IIa, IIb, III) and IVDR (in vitro diagnostic devices in classes A, B, C, D), linking devices to their manufacturers, risks, reported incidents, and corrective actions.
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR/1.0.0"/>
+        <terms:bibliographicCitation xml:lang="en">Beatriz I. S. - Classification of medical devices and in vitro diagnostic devices according to the European MDR and IVDR regulations</terms:bibliographicCitation>
+        <terms:created xml:lang="en">2026-04-20</terms:created>
+        <terms:creator xml:lang="en">Beatriz Istanbouli Sahelieh</terms:creator>
+        <terms:description xml:lang="en">An ontology designed to map the various high-risk medical devices, as well as in vitro diagnostic devices, in accordance with European regulations under the MDR (medical devices in classes I, IIa, IIb, III) and IVDR (in vitro diagnostic devices in classes A, B, C, D), linking devices to their manufacturers, risks, reported incidents, and corrective actions.
+
 We do this using the LOT methodology.
-Purpose and use case: to standardize and enable interoperability of information from various sources, facilitating market surveillance and, above all, regulatory compliance. With this ontology, we perform logical inferences to automatically identify risk levels or dependencies between incidents and safety actions. It can be useful for a health authority that wants to consult the safety history of a specific device, check risks, the corrective actions taken, and other information about the device.</dc:description>
-        <dc:rights xml:lang="en">No license</dc:rights>
-        <dc:title xml:lang="en">Classification of medical devices and in vitro diagnostic devices according to the European MDR and IVDR regulations</dc:title>
-        <owl:versionInfo xml:lang="en">V1.0</owl:versionInfo>
+
+Purpose and use case: to standardize and enable interoperability of information from various sources, facilitating market surveillance and, above all, regulatory compliance. With this ontology, we perform logical inferences to automatically identify risk levels or dependencies between incidents and safety actions. It can be useful for a health authority that wants to consult the safety history of a specific device, check risks, the corrective actions taken, and other information about the device.</terms:description>
+        <terms:license xml:lang="en">https://creativecommons.org/licenses/by/4.0/</terms:license>
+        <terms:title xml:lang="en">Classification of medical devices and in vitro diagnostic devices according to the European MDR and IVDR regulations</terms:title>
+        <vann:preferredNamespacePrefix xml:lang="en">MDR</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri xml:lang="en">mdr</vann:preferredNamespaceUri>
+        <owl:versionIRI xml:lang="en">1.0</owl:versionIRI>
+        <owl:versionInfo xml:lang="en">v1.0</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -34,31 +43,59 @@ Purpose and use case: to standardize and enable interoperability of information 
     
 
 
-    <!-- http://purl.org/dc/elements/1.1/creator -->
+    <!-- http://purl.org/dc/terms/bibliographicCitation -->
 
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/bibliographicCitation"/>
     
 
 
-    <!-- http://purl.org/dc/elements/1.1/description -->
+    <!-- http://purl.org/dc/terms/created -->
 
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
     
 
 
-    <!-- http://purl.org/dc/elements/1.1/rights -->
+    <!-- http://purl.org/dc/terms/creator -->
 
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/rights"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
     
 
 
-    <!-- http://purl.org/dc/elements/1.1/title -->
+    <!-- http://purl.org/dc/terms/description -->
 
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
     
 
 
@@ -73,6 +110,13 @@ Purpose and use case: to standardize and enable interoperability of information 
 
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#sameAs"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#versionIRI -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#versionIRI"/>
     
 
 

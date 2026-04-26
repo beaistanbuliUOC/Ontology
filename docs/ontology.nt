@@ -1,9 +1,15 @@
 <http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR> <http://purl.org/dc/elements/1.1/creator> "Beatriz Istanbouli Sahelieh"@en .
-<http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR> <http://purl.org/dc/elements/1.1/description> "An ontology designed to map the various high-risk medical devices, as well as in vitro diagnostic devices, in accordance with European regulations under the MDR (medical devices in classes I, IIa, IIb, III) and IVDR (in vitro diagnostic devices in classes A, B, C, D), linking devices to their manufacturers, risks, reported incidents, and corrective actions.\nWe do this using the LOT methodology.\nPurpose and use case: to standardize and enable interoperability of information from various sources, facilitating market surveillance and, above all, regulatory compliance. With this ontology, we perform logical inferences to automatically identify risk levels or dependencies between incidents and safety actions. It can be useful for a health authority that wants to consult the safety history of a specific device, check risks, the corrective actions taken, and other information about the device."@en .
-<http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR> <http://purl.org/dc/elements/1.1/rights> "No license"@en .
-<http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR> <http://purl.org/dc/elements/1.1/title> "Classification of medical devices and in vitro diagnostic devices according to the European MDR and IVDR regulations"@en .
-<http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR> <http://www.w3.org/2002/07/owl#versionInfo> "V1.0"@en .
+<http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR/1.0.0> .
+<http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR> <http://purl.org/dc/terms/bibliographicCitation> "Beatriz I. S. - Classification of medical devices and in vitro diagnostic devices according to the European MDR and IVDR regulations"@en .
+<http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR> <http://purl.org/dc/terms/created> "2026-04-20"@en .
+<http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR> <http://purl.org/dc/terms/creator> "Beatriz Istanbouli Sahelieh"@en .
+<http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR> <http://purl.org/dc/terms/description> "An ontology designed to map the various high-risk medical devices, as well as in vitro diagnostic devices, in accordance with European regulations under the MDR (medical devices in classes I, IIa, IIb, III) and IVDR (in vitro diagnostic devices in classes A, B, C, D), linking devices to their manufacturers, risks, reported incidents, and corrective actions.\n\nWe do this using the LOT methodology.\n\nPurpose and use case: to standardize and enable interoperability of information from various sources, facilitating market surveillance and, above all, regulatory compliance. With this ontology, we perform logical inferences to automatically identify risk levels or dependencies between incidents and safety actions. It can be useful for a health authority that wants to consult the safety history of a specific device, check risks, the corrective actions taken, and other information about the device."@en .
+<http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR> <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/"@en .
+<http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR> <http://purl.org/dc/terms/title> "Classification of medical devices and in vitro diagnostic devices according to the European MDR and IVDR regulations"@en .
+<http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR> <http://purl.org/vocab/vann/preferredNamespacePrefix> "MDR"@en .
+<http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR> <http://purl.org/vocab/vann/preferredNamespaceUri> "mdr"@en .
+<http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR> <http://www.w3.org/2002/07/owl#versionIRI> "1.0"@en .
+<http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR> <http://www.w3.org/2002/07/owl#versionInfo> "v1.0"@en .
 # 
 # 
 # #################################################################
@@ -13,23 +19,38 @@
 # #################################################################
 # 
 # 
-# http://purl.org/dc/elements/1.1/creator
-<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# http://purl.org/dc/terms/bibliographicCitation
+<http://purl.org/dc/terms/bibliographicCitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
-# http://purl.org/dc/elements/1.1/description
-<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
-# http://purl.org/dc/elements/1.1/rights
-<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
-# http://purl.org/dc/elements/1.1/title
-<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled
 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://www.w3.org/2000/01/rdf-schema#sameAs
 <http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2002/07/owl#versionIRI
+<http://www.w3.org/2002/07/owl#versionIRI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # 
 # 
