@@ -10,7 +10,7 @@
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:schema="http://schema.org/"
-     xmlns:clasificacion_MDR_IVDR="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#">
+     xmlns:clasificacion_MDR_IVDR="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR">
         <owl:versionIRI rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR/1.0.0"/>
         <terms:bibliographicCitation xml:lang="en">Beatriz I. S. - Classification of medical devices and in vitro diagnostic devices according to the European MDR and IVDR regulations</terms:bibliographicCitation>
