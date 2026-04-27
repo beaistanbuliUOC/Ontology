@@ -1188,8 +1188,6 @@
     "@value" : "http://dbpedia.org/resource/Corrective_and_preventive_action"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CompetentAuthority"
-  }, {
     "@id" : "_:genid1"
   }, {
     "@id" : "_:genid2"

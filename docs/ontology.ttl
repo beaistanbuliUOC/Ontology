@@ -589,8 +589,7 @@ Values: critical, serious, moderate."""@en ;
 
 ###  http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CorrectiveAction
 :CorrectiveAction rdf:type owl:Class ;
-                  rdfs:subClassOf :CompetentAuthority ,
-                                  [ rdf:type owl:Restriction ;
+                  rdfs:subClassOf [ rdf:type owl:Restriction ;
                                     owl:onProperty :hasActionStatus ;
                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                     owl:onClass :ActionStatus
