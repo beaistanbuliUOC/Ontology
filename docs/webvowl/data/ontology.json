@@ -2,7 +2,7 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "de", "fr-be", "en", "fr", "undefined" ],
-    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://schema.org", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://schema.org", "http://www.w3.org/2000/01/rdf-schema", "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR", "http://www.w3.org/2001/XMLSchema" ],
     "title" : {
       "en" : "Classification of medical devices and in vitro diagnostic devices according to the European MDR and IVDR regulations"
     },
@@ -10,7 +10,7 @@
     "version" : "v1.0",
     "author" : [ "Beatriz Istanbouli Sahelieh" ],
     "description" : {
-      "en" : "An ontology designed to map the various high-risk medical devices, as well as in vitro diagnostic devices, in accordance with European regulations under the MDR (medical devices in classes I, IIa, IIb, III) and IVDR (in vitro diagnostic devices in classes A, B, C, D), linking devices to their manufacturers, risks, reported incidents, and corrective actions.\n\nWe do this using the LOT methodology.\n\nPurpose and use case: to standardize and enable interoperability of information from various sources, facilitating market surveillance and, above all, regulatory compliance. With this ontology, we perform logical inferences to automatically identify risk levels or dependencies between incidents and safety actions. It can be useful for a health authority that wants to consult the safety history of a specific device, check risks, the corrective actions taken, and other information about the device."
+      "en" : "An ontology designed to map the various high-risk medical devices, as well as in vitro diagnostic devices, in accordance with European regulations under the MDR and IVDR, linking devices to their manufacturers, risks, reported incidents, and corrective actions.\n\nWe do this using the LOT methodology.\n\nPurpose and use case: to standardize and enable interoperability of information from various sources, facilitating market surveillance and, above all, regulatory compliance. With this ontology, we perform logical inferences to automatically identify risk levels or dependencies between incidents and safety actions. It can be useful for a health authority that wants to consult the safety history of a specific device, check risks, the corrective actions taken, and other information about the device."
     },
     "other" : {
       "versionIRI" : [ {
@@ -43,6 +43,12 @@
         "value" : "mdr",
         "type" : "label"
       } ],
+      "bibliographicCitation" : [ {
+        "identifier" : "bibliographicCitation",
+        "language" : "en",
+        "value" : "Beatriz I. S. - Classification of medical devices and in vitro diagnostic devices according to the European MDR and IVDR regulations",
+        "type" : "label"
+      } ],
       "versionInfo" : [ {
         "identifier" : "versionInfo",
         "language" : "en",
@@ -55,12 +61,6 @@
         "value" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR/",
         "type" : "label"
       } ],
-      "bibliographicCitation" : [ {
-        "identifier" : "bibliographicCitation",
-        "language" : "en",
-        "value" : "Beatriz I. S. - Classification of medical devices and in vitro diagnostic devices according to the European MDR and IVDR regulations",
-        "type" : "label"
-      } ],
       "title" : [ {
         "identifier" : "title",
         "language" : "en",
@@ -71,1141 +71,270 @@
   },
   "namespace" : [ ],
   "class" : [ {
-    "id" : "3",
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
     "type" : "owl:Class"
   }, {
     "id" : "8",
     "type" : "owl:Class"
   }, {
-    "id" : "11",
-    "type" : "owl:Class"
-  }, {
-    "id" : "12",
-    "type" : "owl:Class"
-  }, {
-    "id" : "22",
-    "type" : "owl:Class"
-  }, {
-    "id" : "30",
-    "type" : "owl:Class"
-  }, {
-    "id" : "56",
-    "type" : "owl:Class"
-  }, {
-    "id" : "44",
-    "type" : "owl:Class"
-  }, {
-    "id" : "57",
-    "type" : "owl:Class"
-  }, {
-    "id" : "16",
-    "type" : "owl:Class"
-  }, {
-    "id" : "69",
-    "type" : "owl:Class"
-  }, {
-    "id" : "7",
-    "type" : "owl:Class"
-  }, {
-    "id" : "74",
-    "type" : "owl:Class"
-  }, {
-    "id" : "25",
-    "type" : "owl:Class"
-  }, {
-    "id" : "77",
-    "type" : "owl:Class"
-  }, {
-    "id" : "34",
+    "id" : "59",
     "type" : "owl:Class"
   }, {
     "id" : "37",
     "type" : "owl:Class"
   }, {
-    "id" : "80",
+    "id" : "63",
     "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:Datatype"
   }, {
     "id" : "81",
-    "type" : "owl:Class"
-  }, {
-    "id" : "39",
-    "type" : "owl:Class"
-  }, {
-    "id" : "14",
-    "type" : "owl:Class"
-  }, {
-    "id" : "49",
-    "type" : "owl:Class"
-  }, {
-    "id" : "17",
-    "type" : "owl:Class"
-  }, {
-    "id" : "89",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "90",
+    "id" : "82",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "91",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "88",
-    "type" : "owl:Class"
-  }, {
-    "id" : "51",
+    "id" : "41",
     "type" : "owl:Thing"
   }, {
-    "id" : "61",
+    "id" : "85",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "95",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "72",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "96",
-    "type" : "owl:Class"
-  }, {
-    "id" : "97",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "98",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "99",
-    "type" : "owl:Class"
-  }, {
-    "id" : "100",
-    "type" : "owl:Class"
-  }, {
-    "id" : "58",
-    "type" : "owl:Class"
-  }, {
-    "id" : "71",
-    "type" : "owl:Class"
-  }, {
-    "id" : "107",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "108",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "109",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "110",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "76",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "112",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "113",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "114",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "31",
-    "type" : "owl:Class"
-  }, {
-    "id" : "115",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "103",
+    "id" : "86",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "87",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "33",
+    "id" : "88",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "91",
     "type" : "owl:Class"
   }, {
-    "id" : "121",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "79",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "122",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "123",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "2",
+    "id" : "94",
     "type" : "owl:Class"
   }, {
-    "id" : "52",
+    "id" : "97",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "125",
+    "id" : "96",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "9",
-    "type" : "owl:Class"
+    "id" : "90",
+    "type" : "rdfs:Datatype"
   }, {
-    "id" : "118",
+    "id" : "99",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "104",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "105",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "68",
+    "id" : "108",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "130",
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "112",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "1",
+    "id" : "114",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "115",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "93",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "122",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "124",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "owl:Class"
+  }, {
+    "id" : "118",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
     "type" : "owl:Class"
   }, {
     "id" : "18",
     "type" : "owl:Class"
   }, {
-    "id" : "32",
+    "id" : "137",
     "type" : "owl:Class"
   }, {
-    "id" : "162",
+    "id" : "1",
     "type" : "owl:Class"
   }, {
-    "id" : "20",
+    "id" : "151",
     "type" : "owl:Class"
   }, {
-    "id" : "163",
+    "id" : "148",
     "type" : "owl:Class"
   }, {
-    "id" : "42",
+    "id" : "186",
     "type" : "owl:Class"
   }, {
-    "id" : "29",
-    "type" : "owl:Class"
-  }, {
-    "id" : "195",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "36",
-    "type" : "owl:Class"
-  }, {
-    "id" : "21",
-    "type" : "owl:Class"
-  }, {
-    "id" : "26",
-    "type" : "owl:Class"
-  }, {
-    "id" : "174",
+    "id" : "25",
     "type" : "owl:Class"
   }, {
     "id" : "60",
     "type" : "owl:Class"
   }, {
-    "id" : "23",
+    "id" : "6",
     "type" : "owl:Class"
   }, {
-    "id" : "15",
+    "id" : "39",
     "type" : "owl:Class"
   }, {
-    "id" : "167",
+    "id" : "54",
     "type" : "owl:Class"
   }, {
-    "id" : "128",
-    "type" : "owl:Class"
+    "id" : "193",
+    "type" : "rdfs:Datatype"
   }, {
-    "id" : "170",
-    "type" : "owl:Class"
-  }, {
-    "id" : "4",
-    "type" : "owl:Class"
-  }, {
-    "id" : "127",
+    "id" : "13",
     "type" : "owl:Class"
   }, {
     "id" : "126",
     "type" : "owl:Class"
   }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "135",
+    "type" : "owl:Class"
+  }, {
+    "id" : "157",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "163",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "128",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "132",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
     "id" : "146",
     "type" : "owl:Class"
   }, {
-    "id" : "35",
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "125",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Radiation",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Radiation",
-      "en" : "Radiation"
-    },
-    "comment" : {
-      "en" : "Risks caused by a radiation"
-    },
-    "attributes" : [ "external" ],
-    "id" : "3",
-    "superClasses" : [ "4" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassI",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "ClassI",
-      "en" : "Class I"
-    },
-    "comment" : {
-      "en" : "Devices with minimal risk to patient safety, such as non-electronic walking aids, bandages, or simple surgical instruments."
-    },
-    "attributes" : [ "external" ],
-    "id" : "8",
-    "superClasses" : [ "9" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#InSitu",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "InSitu",
-      "en" : "In Situ"
-    },
-    "comment" : {
-      "en" : "An action taken to address a product problem while the device remains at the healthcare facility or user location"
-    },
-    "attributes" : [ "external" ],
-    "id" : "11",
-    "superClasses" : [ "12" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActionType",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "ActionType",
-      "en" : "Action type"
-    },
-    "subClasses" : [ "16", "11", "17", "18" ],
-    "comment" : {
-      "en" : "Type of corrective action"
-    },
-    "attributes" : [ "external" ],
-    "id" : "12"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceSafety",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "DeviceSafety",
-      "en" : "Device safety"
-    },
-    "comment" : {
-      "en" : "Risk related to device security"
-    },
-    "attributes" : [ "external" ],
-    "id" : "22",
-    "superClasses" : [ "23" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "DeviceType",
-      "en" : "Device type"
-    },
-    "subClasses" : [ "31", "32", "33", "34", "35", "36", "37" ],
-    "comment" : {
-      "en" : "Type of medical device"
-    },
-    "attributes" : [ "external" ],
-    "id" : "30"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CorrectiveAction",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "annotations" : {
-      "sameAs" : [ {
-        "identifier" : "sameAs",
-        "language" : "en",
-        "value" : "http://dbpedia.org/resource/Corrective_and_preventive_action",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "CorrectiveAction",
-      "en" : "Corrective action"
-    },
-    "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#FSCA-001",
-      "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-      "comment" : {
-        "en" : "First corrective action"
-      },
-      "labels" : {
-        "IRI-based" : "FSCA-001",
-        "en" : "Corrective action 1"
-      }
-    } ],
-    "comment" : {
-      "en" : "Class of Corrective Action"
-    },
-    "attributes" : [ "external" ],
-    "id" : "56"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Interference",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Interference",
-      "en" : "Interference"
-    },
-    "comment" : {
-      "en" : "Risks caused by interference"
-    },
-    "attributes" : [ "external" ],
-    "id" : "44",
-    "superClasses" : [ "4" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#BfArM",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "BfArM",
-      "undefined" : "BfArM"
-    },
-    "comment" : {
-      "de" : "Bundesinstitut für Arzneimittel und Medizinprodukte"
-    },
-    "attributes" : [ "external" ],
-    "id" : "57",
-    "superClasses" : [ "58" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#UserNotice",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "UserNotice",
-      "en" : "User notice"
-    },
-    "comment" : {
-      "en" : "It is an official communication from a manufacturer to users informing them of a safety risk with a medical device and providing instructions to prevent harm."
-    },
-    "attributes" : [ "external" ],
-    "id" : "16",
-    "superClasses" : [ "12" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Diagnostic",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Diagnostic",
-      "en" : "Diagnostic"
-    },
-    "comment" : {
-      "en" : "Risks associated with the diagnostic"
-    },
-    "attributes" : [ "external" ],
-    "id" : "69",
-    "superClasses" : [ "4" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Software",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Software",
-      "en" : "Software"
-    },
-    "comment" : {
-      "en" : "Risks caused by software"
-    },
-    "attributes" : [ "external" ],
-    "id" : "7",
-    "superClasses" : [ "4" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Cybersecurity",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Cybersecurity",
-      "en" : "Cybersecurity"
-    },
-    "comment" : {
-      "en" : "Risks caused by cybersecurity"
-    },
-    "attributes" : [ "external" ],
-    "id" : "74",
-    "superClasses" : [ "4" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RIVM",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "RIVM",
-      "undefined" : "RIVM"
-    },
-    "comment" : {
-      "de" : "Rijksinstituut voor Volksgezondheid en Milieu"
-    },
-    "attributes" : [ "external" ],
-    "id" : "25",
-    "superClasses" : [ "58" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ANSM",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "ANSM",
-      "undefined" : "ANSM"
-    },
-    "comment" : {
-      "fr-be" : "Agence Nationale de Sécurité du Médicament et des Produits de Santé"
-    },
-    "attributes" : [ "external" ],
-    "id" : "77",
-    "superClasses" : [ "58" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SingleUse",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "SingleUse",
-      "en" : "Single use"
-    },
-    "comment" : {
-      "en" : "It is defined as a device intended to be used on one individual patient during a single procedure and then discarded. They are not intended to be reprocessed or reused."
-    },
-    "attributes" : [ "external" ],
-    "id" : "34",
-    "superClasses" : [ "30" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#InVitroDiagnostic",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "InVitroDiagnostic",
-      "en" : "In vitro diagnostic"
-    },
-    "comment" : {
-      "en" : "Any reagent, instrument, software, or kit used in vitro to examine specimens from the human body, such as blood or tissue, to provide information on health status, illnesses, or congenital impairments."
-    },
-    "attributes" : [ "external" ],
-    "id" : "37",
-    "superClasses" : [ "30" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#HPRA",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "HPRA",
-      "undefined" : "HPRA"
-    },
-    "comment" : {
-      "en" : "Health Products Regulatory Authority"
-    },
-    "attributes" : [ "external" ],
-    "id" : "80",
-    "superClasses" : [ "58" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Manufacturer",
-      "en" : "Manufacturer"
-    },
-    "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MAN-001",
-      "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-      "comment" : {
-        "en" : "First manufacturer"
-      },
-      "labels" : {
-        "IRI-based" : "MAN-001",
-        "en" : "Manufacturer 1"
-      }
-    } ],
-    "comment" : {
-      "en" : "Class of manufacturer"
-    },
-    "attributes" : [ "external" ],
-    "id" : "81"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MPA",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "MPA",
-      "undefined" : "MPA"
-    },
-    "comment" : {
-      "en" : "Medical Products Agency"
-    },
-    "attributes" : [ "external" ],
-    "id" : "39",
-    "superClasses" : [ "58" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#NearMiss",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "NearMiss",
-      "en" : "Near miss"
-    },
-    "comment" : {
-      "en" : "It is an unplanned event that had the potential to cause, but did not result in, patient harm, injury, or damage, often due to luck or timely interception"
-    },
-    "attributes" : [ "external" ],
-    "id" : "14",
-    "superClasses" : [ "88" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MHRA",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "MHRA",
-      "undefined" : "MHRA"
-    },
-    "comment" : {
-      "en" : "Medicines and Healthcare products Regulatory Agency"
-    },
-    "attributes" : [ "external" ],
-    "id" : "49",
-    "superClasses" : [ "58" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SafetyAlert",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "SafetyAlert",
-      "en" : "Safety alert"
-    },
-    "comment" : {
-      "undefined" : "It is a mandatory communication sent by a medical device manufacturer to users (hospitals, doctors, patients) to prevent or reduce the risk of a serious incident with a device that is already on the market"
-    },
-    "attributes" : [ "external" ],
-    "id" : "17",
-    "superClasses" : [ "12" ]
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "89",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "90",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "91",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#IncidentType",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "IncidentType",
-      "en" : "Incident type"
-    },
-    "subClasses" : [ "14", "15" ],
-    "comment" : {
-      "en" : "Type of incident"
-    },
-    "attributes" : [ "external" ],
-    "id" : "88"
-  }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "51",
-    "label" : {
-      "undefined" : "Thing"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "61",
-    "label" : {
-      "IRI-based" : "integer"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "95",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "72",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Contamination",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Contamination",
-      "en" : "Contamination"
-    },
-    "comment" : {
-      "en" : "Risks caused by contamination"
-    },
-    "attributes" : [ "external" ],
-    "id" : "96",
-    "superClasses" : [ "4" ]
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "97",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#date",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "98",
-    "label" : {
-      "IRI-based" : "date"
-    }
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#AFMPS",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "AFMPS",
-      "undefined" : "AFMPS"
-    },
-    "comment" : {
-      "fr" : "Agence Fédérale des Médicaments et des Produits de Santé"
-    },
-    "attributes" : [ "external" ],
-    "id" : "99",
-    "superClasses" : [ "58" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DiagnosticError",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "DiagnosticError",
-      "en" : "Diagnostic error"
-    },
-    "comment" : {
-      "en" : "Risk associated with diagnostic error"
-    },
-    "attributes" : [ "external" ],
-    "id" : "100",
-    "superClasses" : [ "23" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "CompetentAuthority",
-      "en" : "Competent authority"
-    },
-    "subClasses" : [ "25", "77", "49", "39", "26", "99", "80", "57" ],
-    "comment" : {
-      "en" : "Class of Competent Authorities"
-    },
-    "attributes" : [ "external" ],
-    "id" : "58"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Risk",
-      "en" : "Risk"
-    },
-    "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RSK-003",
-      "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-      "comment" : {
-        "en" : "Third risk"
-      },
-      "labels" : {
-        "IRI-based" : "RSK-003",
-        "en" : "Risk 3"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RSK-001",
-      "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-      "comment" : {
-        "en" : "First risk"
-      },
-      "labels" : {
-        "IRI-based" : "RSK-001",
-        "en" : "Risk 1"
-      }
-    } ],
-    "comment" : {
-      "en" : "Class of risk"
-    },
-    "attributes" : [ "external" ],
-    "id" : "71"
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "107",
-    "label" : {
-      "IRI-based" : "boolean"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "108",
-    "label" : {
-      "IRI-based" : "boolean"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "109",
-    "label" : {
-      "IRI-based" : "boolean"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "110",
-    "label" : {
-      "IRI-based" : "boolean"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "76",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "112",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "113",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "114",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SelfTest",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "SelfTest",
-      "en" : "Self test"
-    },
-    "comment" : {
-      "en" : "It is an in vitro diagnostic medical device intended by the manufacturer for use by laypersons in a home environment."
-    },
-    "attributes" : [ "external" ],
-    "id" : "31",
-    "superClasses" : [ "30" ]
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#date",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "115",
-    "label" : {
-      "IRI-based" : "date"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "103",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "87",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ImplantableActive",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "ImplantableActive",
-      "en" : "Implantable active"
-    },
-    "comment" : {
-      "en" : "A powered device introduced totally or partially into the body via surgery or medical intervention (including natural orifices) and intended to remain there after the procedure."
-    },
-    "attributes" : [ "external" ],
-    "id" : "33",
-    "superClasses" : [ "30" ]
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#date",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "121",
-    "label" : {
-      "IRI-based" : "date"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "79",
-    "label" : {
-      "IRI-based" : "boolean"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#date",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "122",
-    "label" : {
-      "IRI-based" : "date"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "123",
-    "label" : {
-      "IRI-based" : "integer"
-    }
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Material",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Material",
-      "en" : "Material"
-    },
-    "comment" : {
-      "en" : "Risks caused by material"
-    },
-    "attributes" : [ "external" ],
-    "id" : "2",
-    "superClasses" : [ "4" ]
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "52",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "125",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskClass",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "RiskClass",
-      "en" : "Risk class"
-    },
-    "subClasses" : [ "126", "8", "127", "128" ],
-    "comment" : {
-      "en" : "Class of risk by MDR"
-    },
-    "attributes" : [ "external" ],
-    "id" : "9"
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "118",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "105",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#date",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "68",
-    "label" : {
-      "IRI-based" : "date"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "130",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Malfunction",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Malfunction",
-      "en" : "Malfunction"
-    },
-    "comment" : {
-      "en" : "Risks caused by a malfunction"
-    },
-    "attributes" : [ "external" ],
-    "id" : "1",
-    "superClasses" : [ "4" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Recall",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Recall",
-      "en" : "Recall"
-    },
-    "comment" : {
-      "en" : "It is a manufacturer’s action to fix, return, or destroy a medical device after it has left their control due to risks to safety, performance, or regulatory compliance"
-    },
-    "attributes" : [ "external" ],
-    "id" : "18",
-    "superClasses" : [ "12" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Active",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Active",
-      "en" : "Active"
-    },
-    "comment" : {
-      "undefined" : "It is any medical device that relies on a source of energy other than that generated directly by the human body or gravity."
-    },
-    "attributes" : [ "external" ],
-    "id" : "32",
-    "superClasses" : [ "30" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Open",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Open",
-      "en" : "Open"
-    },
-    "comment" : {
-      "en" : "Corrective action is open"
-    },
-    "attributes" : [ "external" ],
-    "id" : "162",
-    "superClasses" : [ "163" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#PatientHarm",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "PatientHarm",
-      "en" : "Patient harm"
-    },
-    "comment" : {
-      "en" : "Risk that could cause harm to the patient"
-    },
-    "attributes" : [ "external" ],
-    "id" : "20",
-    "superClasses" : [ "23" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActionStatus",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "ActionStatus",
-      "en" : "Action status"
-    },
-    "subClasses" : [ "162", "167" ],
-    "comment" : {
-      "en" : "Corrective action status"
-    },
-    "attributes" : [ "external" ],
-    "id" : "163"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Injury",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Injury",
-      "en" : "Injury"
-    },
-    "comment" : {
-      "en" : "Risks caused by an injury"
-    },
-    "attributes" : [ "external" ],
-    "id" : "42",
-    "superClasses" : [ "4" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "annotations" : {
-      "sameAs" : [ {
-        "identifier" : "sameAs",
-        "language" : "en",
-        "value" : "http://dbpedia.org/resource/Medical_device",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Device",
-      "en" : "Medical device"
-    },
-    "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DEV-001",
-      "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-      "comment" : {
-        "en" : "First device classfied"
-      },
-      "labels" : {
-        "IRI-based" : "DEV-001",
-        "en" : "Device 1"
-      }
-    } ],
-    "comment" : {
-      "en" : "Class of medical device"
-    },
-    "attributes" : [ "external" ],
-    "id" : "29"
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#date",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "195",
-    "label" : {
-      "IRI-based" : "date"
-    }
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Implantable",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Implantable",
-      "en" : "Implantable"
-    },
-    "comment" : {
-      "en" : "Any device, including partially or wholly absorbed ones, intended to be totally introduced into the human body, or to replace an epithelial/eye surface, via clinical intervention and remain there after the procedure."
-    },
-    "attributes" : [ "external" ],
-    "id" : "36",
-    "superClasses" : [ "30" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ProductQuality",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ProductQuality",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
     "instances" : 0,
     "label" : {
       "IRI-based" : "ProductQuality",
@@ -1214,26 +343,11 @@
     "comment" : {
       "en" : "Risk related to a decline in the device's quality"
     },
-    "attributes" : [ "external" ],
-    "id" : "21",
-    "superClasses" : [ "23" ]
+    "id" : "16",
+    "superClasses" : [ "37" ]
   }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Swissmedic",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Swissmedic",
-      "en" : "Swissmedic"
-    },
-    "comment" : {
-      "en" : "Swiss authority"
-    },
-    "attributes" : [ "external" ],
-    "id" : "26",
-    "superClasses" : [ "58" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceFailure",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceFailure",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
     "instances" : 0,
     "label" : {
       "IRI-based" : "DeviceFailure",
@@ -1242,12 +356,11 @@
     "comment" : {
       "en" : "Risk caused by a device failure"
     },
-    "attributes" : [ "external" ],
-    "id" : "174",
-    "superClasses" : [ "23" ]
+    "id" : "46",
+    "superClasses" : [ "37" ]
   }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
     "instances" : 0,
     "annotations" : {
       "sameAs" : [ {
@@ -1262,8 +375,8 @@
       "en" : "Incident"
     },
     "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#INC-001",
-      "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
+      "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#INC-001",
+      "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
       "comment" : {
         "en" : "First incident"
       },
@@ -1275,53 +388,49 @@
     "comment" : {
       "en" : "Class of incident"
     },
-    "attributes" : [ "external" ],
-    "id" : "60"
+    "id" : "8"
   }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskCategory",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SafetyAlert",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SafetyAlert",
+      "en" : "Safety alert"
+    },
+    "comment" : {
+      "undefined" : "It is a mandatory communication sent by a medical device manufacturer to users (hospitals, doctors, patients) to prevent or reduce the risk of a serious incident with a device that is already on the market"
+    },
+    "id" : "59",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskCategory",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
     "instances" : 0,
     "label" : {
       "IRI-based" : "RiskCategory",
       "en" : "Risk category"
     },
-    "subClasses" : [ "170", "174", "22", "100", "20", "21" ],
+    "subClasses" : [ "46", "16", "61", "62", "63", "15" ],
     "comment" : {
       "en" : "Risk category class"
     },
-    "attributes" : [ "external" ],
-    "id" : "23"
+    "id" : "37"
   }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Serious",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DiagnosticError",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Serious",
-      "en" : "Serious"
+      "IRI-based" : "DiagnosticError",
+      "en" : "Diagnostic error"
     },
     "comment" : {
-      "en" : "It is defined as any incident involving a device that directly or indirectly led, might have led, or might lead to the death of a patient/user, a serious deterioration in health (temporary/permanent), or a serious public health threat. It includes malfunctions, performance issues, and use errors."
+      "en" : "Risk associated with diagnostic error"
     },
-    "attributes" : [ "external" ],
-    "id" : "15",
-    "superClasses" : [ "88" ]
+    "id" : "63",
+    "superClasses" : [ "37" ]
   }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Closed",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Closed",
-      "en" : "Closed"
-    },
-    "comment" : {
-      "en" : "Corrective Action is closed"
-    },
-    "attributes" : [ "external" ],
-    "id" : "167",
-    "superClasses" : [ "163" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassIIb",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassIIb",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
     "instances" : 0,
     "label" : {
       "IRI-based" : "ClassIIb",
@@ -1330,54 +439,11 @@
     "comment" : {
       "en" : "Devices that pose significant risk, often including active devices meant for monitoring or administering substances, or long-term implants, such as ventilators, infusion pumps, or bone fixation devices."
     },
-    "attributes" : [ "external" ],
-    "id" : "128",
-    "superClasses" : [ "9" ]
+    "id" : "67",
+    "superClasses" : [ "68" ]
   }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DevicePerformance",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "DevicePerformance",
-      "en" : "Device performance"
-    },
-    "comment" : {
-      "en" : "Risk related to device performance"
-    },
-    "attributes" : [ "external" ],
-    "id" : "170",
-    "superClasses" : [ "23" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "RiskType",
-      "en" : "Risk type"
-    },
-    "subClasses" : [ "2", "7", "3", "96", "69", "146", "74", "42", "44", "1" ],
-    "comment" : {
-      "en" : "Risk type class"
-    },
-    "attributes" : [ "external" ],
-    "id" : "4"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassIII",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "ClassIII",
-      "en" : "Class III"
-    },
-    "comment" : {
-      "en" : "Devices with the highest risk profile, which are vital for supporting life, have direct contact with the heart/central circulatory system, or are permanently implanted, such as cardiac pacemakers, heart valves, and breast implants."
-    },
-    "attributes" : [ "external" ],
-    "id" : "127",
-    "superClasses" : [ "9" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassIIa",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassIIa",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
     "instances" : 0,
     "label" : {
       "IRI-based" : "ClassIIa",
@@ -1386,12 +452,37 @@
     "comment" : {
       "en" : "Devices with a moderate risk level, often used for short-term, non-critical, or diagnostic purposes, such as hearing aids, ultrasound equipment, or standard catheters."
     },
-    "attributes" : [ "external" ],
-    "id" : "126",
-    "superClasses" : [ "9" ]
+    "id" : "69",
+    "superClasses" : [ "68" ]
   }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Infection",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#UserNotice",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UserNotice",
+      "en" : "User notice"
+    },
+    "comment" : {
+      "en" : "It is an official communication from a manufacturer to users informing them of a safety risk with a medical device and providing instructions to prevent harm."
+    },
+    "id" : "74",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassIII",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ClassIII",
+      "en" : "Class III"
+    },
+    "comment" : {
+      "en" : "Devices with the highest risk profile, which are vital for supporting life, have direct contact with the heart/central circulatory system, or are permanently implanted, such as cardiac pacemakers, heart valves, and breast implants."
+    },
+    "id" : "77",
+    "superClasses" : [ "68" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Infection",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Infection",
@@ -1400,12 +491,87 @@
     "comment" : {
       "en" : "Risks caused by an infection"
     },
-    "attributes" : [ "external" ],
-    "id" : "146",
-    "superClasses" : [ "4" ]
+    "id" : "78",
+    "superClasses" : [ "79" ]
   }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActiveImplant",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "80",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "81",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "82",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "41",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "85",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "86",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "87",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "88",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "66",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Cybersecurity",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cybersecurity",
+      "en" : "Cybersecurity"
+    },
+    "comment" : {
+      "en" : "Risks caused by cybersecurity"
+    },
+    "id" : "91",
+    "superClasses" : [ "79" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActiveImplant",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
     "instances" : 0,
     "label" : {
       "IRI-based" : "ActiveImplant",
@@ -1414,108 +580,902 @@
     "comment" : {
       "en" : "Any device relying on a power source other than human energy or gravity, intended to be totally or partially introduced into the body (or replacing an eye surface) via clinical intervention and intended to remain after the procedure"
     },
-    "attributes" : [ "external" ],
-    "id" : "35",
-    "superClasses" : [ "30" ]
+    "id" : "94",
+    "superClasses" : [ "54" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "97",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "96",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "90",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "99",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "100",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "101",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "102",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "71",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "104",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "105",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "108",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskType",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RiskType",
+      "en" : "Risk type"
+    },
+    "subClasses" : [ "109", "91", "4", "2", "1", "110", "78", "31", "33", "6" ],
+    "comment" : {
+      "en" : "Risk type class"
+    },
+    "id" : "79"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Active",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Active",
+      "en" : "Active"
+    },
+    "comment" : {
+      "undefined" : "It is any medical device that relies on a source of energy other than that generated directly by the human body or gravity."
+    },
+    "id" : "112",
+    "superClasses" : [ "54" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "23",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "114",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "58",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "115",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "42",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "120",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "107",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "93",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "121",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "122",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Interference",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Interference",
+      "en" : "Interference"
+    },
+    "comment" : {
+      "en" : "Risks caused by interference"
+    },
+    "id" : "33",
+    "superClasses" : [ "79" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DevicePerformance",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DevicePerformance",
+      "en" : "Device performance"
+    },
+    "comment" : {
+      "en" : "Risk related to device performance"
+    },
+    "id" : "61",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActionStatus",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ActionStatus",
+      "en" : "Action status"
+    },
+    "subClasses" : [ "125", "126" ],
+    "comment" : {
+      "en" : "Corrective action status"
+    },
+    "id" : "124"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Diagnostic",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Diagnostic",
+      "en" : "Diagnostic"
+    },
+    "comment" : {
+      "en" : "Risks associated with the diagnostic"
+    },
+    "id" : "109",
+    "superClasses" : [ "79" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SelfTest",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SelfTest",
+      "en" : "Self test"
+    },
+    "comment" : {
+      "en" : "It is an in vitro diagnostic medical device intended by the manufacturer for use by laypersons in a home environment."
+    },
+    "id" : "118",
+    "superClasses" : [ "54" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Software",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Software",
+      "en" : "Software"
+    },
+    "comment" : {
+      "en" : "Risks caused by software"
+    },
+    "id" : "2",
+    "superClasses" : [ "79" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RIVM",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RIVM",
+      "undefined" : "RIVM"
+    },
+    "comment" : {
+      "de" : "Rijksinstituut voor Volksgezondheid en Milieu"
+    },
+    "id" : "18",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ANSM",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ANSM",
+      "undefined" : "ANSM"
+    },
+    "comment" : {
+      "fr-be" : "Agence Nationale de Sécurité du Médicament et des Produits de Santé"
+    },
+    "id" : "137",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Malfunction",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Malfunction",
+      "en" : "Malfunction"
+    },
+    "comment" : {
+      "en" : "Risks caused by a malfunction"
+    },
+    "id" : "1",
+    "superClasses" : [ "79" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#InVitroDiagnostic",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InVitroDiagnostic",
+      "en" : "In vitro diagnostic"
+    },
+    "comment" : {
+      "en" : "Any reagent, instrument, software, or kit used in vitro to examine specimens from the human body, such as blood or tissue, to provide information on health status, illnesses, or congenital impairments."
+    },
+    "id" : "151",
+    "superClasses" : [ "54" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#HPRA",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HPRA",
+      "undefined" : "HPRA"
+    },
+    "comment" : {
+      "en" : "Health Products Regulatory Authority"
+    },
+    "id" : "148",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#InSitu",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InSitu",
+      "en" : "In Situ"
+    },
+    "comment" : {
+      "en" : "An action taken to address a product problem while the device remains at the healthcare facility or user location"
+    },
+    "id" : "186",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MPA",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MPA",
+      "undefined" : "MPA"
+    },
+    "comment" : {
+      "en" : "Medical Products Agency"
+    },
+    "id" : "25",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActionType",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ActionType",
+      "en" : "Action type"
+    },
+    "subClasses" : [ "74", "186", "128", "59" ],
+    "comment" : {
+      "en" : "Type of corrective action"
+    },
+    "id" : "60"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Radiation",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Radiation",
+      "en" : "Radiation"
+    },
+    "comment" : {
+      "en" : "Risks caused by a radiation"
+    },
+    "id" : "6",
+    "superClasses" : [ "79" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MHRA",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MHRA",
+      "undefined" : "MHRA"
+    },
+    "comment" : {
+      "en" : "Medicines and Healthcare products Regulatory Agency"
+    },
+    "id" : "39",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceType",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DeviceType",
+      "en" : "Device type"
+    },
+    "subClasses" : [ "118", "94", "163", "151", "112", "157", "119" ],
+    "comment" : {
+      "en" : "Type of medical device"
+    },
+    "id" : "54"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "193",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Serious",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Serious",
+      "en" : "Serious"
+    },
+    "comment" : {
+      "en" : "It is defined as any incident involving a device that directly or indirectly led, might have led, or might lead to the death of a patient/user, a serious deterioration in health (temporary/permanent), or a serious public health threat. It includes malfunctions, performance issues, and use errors."
+    },
+    "id" : "13",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Closed",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Closed",
+      "en" : "Closed"
+    },
+    "comment" : {
+      "en" : "Corrective Action is closed"
+    },
+    "id" : "126",
+    "superClasses" : [ "124" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Risk",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Risk",
+      "en" : "Risk"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RSK-001",
+      "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+      "comment" : {
+        "en" : "First risk"
+      },
+      "labels" : {
+        "IRI-based" : "RSK-001",
+        "en" : "Risk 1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RSK-003",
+      "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+      "comment" : {
+        "en" : "Third risk"
+      },
+      "labels" : {
+        "IRI-based" : "RSK-003",
+        "en" : "Risk 3"
+      }
+    } ],
+    "comment" : {
+      "en" : "Class of risk"
+    },
+    "id" : "52"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#BfArM",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BfArM",
+      "undefined" : "BfArM"
+    },
+    "comment" : {
+      "de" : "Bundesinstitut für Arzneimittel und Medizinprodukte"
+    },
+    "id" : "135",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ImplantableActive",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ImplantableActive",
+      "en" : "Implantable active"
+    },
+    "comment" : {
+      "en" : "A powered device introduced totally or partially into the body via surgery or medical intervention (including natural orifices) and intended to remain there after the procedure."
+    },
+    "id" : "157",
+    "superClasses" : [ "54" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Injury",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Injury",
+      "en" : "Injury"
+    },
+    "comment" : {
+      "en" : "Risks caused by an injury"
+    },
+    "id" : "31",
+    "superClasses" : [ "79" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "en",
+        "value" : "http://dbpedia.org/resource/Medical_device",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Device",
+      "en" : "Medical device"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DEV-001",
+      "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+      "comment" : {
+        "en" : "First device classfied"
+      },
+      "labels" : {
+        "IRI-based" : "DEV-001",
+        "en" : "Device 1"
+      }
+    } ],
+    "comment" : {
+      "en" : "Class of medical device"
+    },
+    "id" : "9"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#PatientHarm",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PatientHarm",
+      "en" : "Patient harm"
+    },
+    "comment" : {
+      "en" : "Risk that could cause harm to the patient"
+    },
+    "id" : "15",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskClass",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RiskClass",
+      "en" : "Risk class"
+    },
+    "subClasses" : [ "77", "132", "67", "69" ],
+    "comment" : {
+      "en" : "Class of risk by MDR"
+    },
+    "id" : "68"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Material",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Material",
+      "en" : "Material"
+    },
+    "comment" : {
+      "en" : "Risks caused by material"
+    },
+    "id" : "4",
+    "superClasses" : [ "79" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Implantable",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Implantable",
+      "en" : "Implantable"
+    },
+    "comment" : {
+      "en" : "Any device, including partially or wholly absorbed ones, intended to be totally introduced into the human body, or to replace an epithelial/eye surface, via clinical intervention and remain there after the procedure."
+    },
+    "id" : "163",
+    "superClasses" : [ "54" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Manufacturer",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Manufacturer",
+      "en" : "Manufacturer"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MAN-001",
+      "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+      "comment" : {
+        "en" : "First manufacturer"
+      },
+      "labels" : {
+        "IRI-based" : "MAN-001",
+        "en" : "Manufacturer 1"
+      }
+    } ],
+    "comment" : {
+      "en" : "Class of manufacturer"
+    },
+    "id" : "27"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Recall",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Recall",
+      "en" : "Recall"
+    },
+    "comment" : {
+      "en" : "It is a manufacturer’s action to fix, return, or destroy a medical device after it has left their control due to risks to safety, performance, or regulatory compliance"
+    },
+    "id" : "128",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceSafety",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DeviceSafety",
+      "en" : "Device safety"
+    },
+    "comment" : {
+      "en" : "Risk related to device security"
+    },
+    "id" : "62",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Swissmedic",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Swissmedic",
+      "en" : "Swissmedic"
+    },
+    "comment" : {
+      "en" : "Swiss authority"
+    },
+    "id" : "19",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SingleUse",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SingleUse",
+      "en" : "Single use"
+    },
+    "comment" : {
+      "en" : "It is defined as a device intended to be used on one individual patient during a single procedure and then discarded. They are not intended to be reprocessed or reused."
+    },
+    "id" : "119",
+    "superClasses" : [ "54" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassI",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ClassI",
+      "en" : "Class I"
+    },
+    "comment" : {
+      "en" : "Devices with minimal risk to patient safety, such as non-electronic walking aids, bandages, or simple surgical instruments."
+    },
+    "id" : "132",
+    "superClasses" : [ "68" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#NearMiss",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NearMiss",
+      "en" : "Near miss"
+    },
+    "comment" : {
+      "en" : "It is an unplanned event that had the potential to cause, but did not result in, patient harm, injury, or damage, often due to luck or timely interception"
+    },
+    "id" : "12",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#IncidentType",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IncidentType",
+      "en" : "Incident type"
+    },
+    "subClasses" : [ "13", "12" ],
+    "comment" : {
+      "en" : "Type of incident"
+    },
+    "id" : "48"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Contamination",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Contamination",
+      "en" : "Contamination"
+    },
+    "comment" : {
+      "en" : "Risks caused by contamination"
+    },
+    "id" : "110",
+    "superClasses" : [ "79" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#AFMPS",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AFMPS",
+      "undefined" : "AFMPS"
+    },
+    "comment" : {
+      "fr" : "Agence Fédérale des Médicaments et des Produits de Santé"
+    },
+    "id" : "146",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CompetentAuthority",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CompetentAuthority",
+      "en" : "Competent authority"
+    },
+    "subClasses" : [ "18", "137", "135", "39", "25", "146", "19", "22", "148" ],
+    "comment" : {
+      "en" : "Class of Competent Authorities"
+    },
+    "id" : "28"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CorrectiveAction",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "en",
+        "value" : "http://dbpedia.org/resource/Corrective_and_preventive_action",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CorrectiveAction",
+      "en" : "Corrective action"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#FSCA-001",
+      "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+      "comment" : {
+        "en" : "First corrective action"
+      },
+      "labels" : {
+        "IRI-based" : "FSCA-001",
+        "en" : "Corrective action 1"
+      }
+    } ],
+    "comment" : {
+      "en" : "Class of Corrective Action"
+    },
+    "id" : "22",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Open",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Open",
+      "en" : "Open"
+    },
+    "comment" : {
+      "en" : "Corrective action is open"
+    },
+    "id" : "125",
+    "superClasses" : [ "124" ]
   } ],
   "property" : [ {
     "id" : "0",
     "type" : "owl:disjointWith"
   }, {
+    "id" : "3",
+    "type" : "owl:disjointWith"
+  }, {
     "id" : "5",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "6",
-    "type" : "owl:disjointWith"
+    "id" : "7",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "10",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "13",
+    "id" : "11",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "19",
+    "id" : "14",
     "type" : "owl:disjointWith"
+  }, {
+    "id" : "17",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "20",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "21",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "24",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "27",
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "29",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "28",
-    "type" : "owl:objectProperty"
+    "id" : "30",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "32",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "34",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "35",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "36",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "38",
     "type" : "owl:disjointWith"
   }, {
     "id" : "40",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "41",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "43",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "44",
     "type" : "owl:disjointWith"
   }, {
     "id" : "45",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "46",
-    "type" : "owl:disjointWith"
-  }, {
     "id" : "47",
-    "type" : "owl:disjointWith"
+    "type" : "owl:objectProperty"
   }, {
-    "id" : "48",
+    "id" : "49",
     "type" : "owl:disjointWith"
   }, {
     "id" : "50",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "51",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "53",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "54",
-    "type" : "owl:disjointWith"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "55",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "59",
+    "id" : "56",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "57",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "62",
+    "id" : "64",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "63",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "64",
-    "type" : "owl:disjointWith"
-  }, {
     "id" : "65",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "66",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "67",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "70",
     "type" : "owl:datatypeProperty"
   }, {
+    "id" : "72",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "73",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "75",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "78",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "82",
+    "id" : "76",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "83",
@@ -1524,83 +1484,68 @@
     "id" : "84",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "85",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "86",
+    "id" : "89",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "92",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "93",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "94",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "101",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "102",
+    "id" : "95",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "104",
+    "id" : "98",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "103",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "106",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "111",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "113",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "116",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "117",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "123",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "119",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "120",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "124",
+    "id" : "127",
     "type" : "owl:disjointWith"
   }, {
     "id" : "129",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "130",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "131",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "132",
-    "type" : "owl:objectProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "133",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "134",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "135",
     "type" : "owl:disjointWith"
   }, {
     "id" : "136",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "137",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "138",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "139",
     "type" : "owl:disjointWith"
   }, {
     "id" : "140",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "141",
     "type" : "owl:disjointWith"
@@ -1609,7 +1554,7 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "143",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "144",
     "type" : "owl:disjointWith"
@@ -1620,16 +1565,10 @@
     "id" : "147",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "148",
-    "type" : "rdfs:SubClassOf"
-  }, {
     "id" : "149",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "150",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "151",
     "type" : "owl:disjointWith"
   }, {
     "id" : "152",
@@ -1647,19 +1586,19 @@
     "id" : "156",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "157",
-    "type" : "owl:disjointWith"
-  }, {
     "id" : "158",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "159",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "160",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "161",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "162",
     "type" : "owl:disjointWith"
   }, {
     "id" : "164",
@@ -1671,19 +1610,28 @@
     "id" : "166",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "168",
+    "id" : "167",
     "type" : "owl:disjointWith"
   }, {
+    "id" : "168",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "169",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "170",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "171",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "172",
     "type" : "owl:disjointWith"
   }, {
+    "id" : "172",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "173",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "174",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "175",
@@ -1693,16 +1641,16 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "177",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "178",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "179",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "180",
+    "id" : "179",
     "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "180",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "181",
     "type" : "rdfs:SubClassOf"
@@ -1714,37 +1662,34 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "184",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "185",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "186",
+    "id" : "185",
     "type" : "owl:disjointWith"
   }, {
     "id" : "187",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "188",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "189",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "190",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "191",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "192",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "193",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "194",
     "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "195",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "196",
     "type" : "rdfs:SubClassOf"
@@ -1768,43 +1713,43 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "203",
-    "type" : "owl:objectProperty"
+    "type" : "owl:allValuesFrom"
   }, {
     "id" : "204",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "205",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "205",
+    "type" : "owl:disjointWith"
+  }, {
     "id" : "206",
-    "type" : "owl:allValuesFrom"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "207",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "208",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "209",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "210",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "211",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "212",
     "type" : "owl:disjointWith"
   }, {
+    "id" : "212",
+    "type" : "owl:objectProperty"
+  }, {
     "id" : "213",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "214",
     "type" : "owl:disjointWith"
   }, {
     "id" : "215",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "216",
     "type" : "owl:objectProperty"
@@ -1813,7 +1758,7 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "218",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "219",
     "type" : "owl:disjointWith"
@@ -1861,7 +1806,7 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "234",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "235",
     "type" : "owl:disjointWith"
@@ -1870,7 +1815,7 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "237",
-    "type" : "owl:objectProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "238",
     "type" : "owl:disjointWith"
@@ -1879,7 +1824,7 @@
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "240",
-    "type" : "owl:objectProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "241",
     "type" : "owl:disjointWith"
@@ -1909,16 +1854,16 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "250",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "251",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "252",
     "type" : "owl:datatypeProperty"
   }, {
+    "id" : "251",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "252",
+    "type" : "owl:disjointWith"
+  }, {
     "id" : "253",
-    "type" : "owl:objectProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "254",
     "type" : "owl:disjointWith"
@@ -1933,10 +1878,10 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "258",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "259",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "260",
     "type" : "owl:disjointWith"
@@ -2017,13 +1962,13 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "286",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "287",
     "type" : "owl:disjointWith"
   }, {
     "id" : "288",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "289",
     "type" : "owl:datatypeProperty"
@@ -2035,7 +1980,7 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "292",
-    "type" : "owl:disjointWith"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "293",
     "type" : "owl:disjointWith"
@@ -2045,1474 +1990,1482 @@
   }, {
     "id" : "295",
     "type" : "owl:disjointWith"
+  }, {
+    "id" : "296",
+    "type" : "owl:disjointWith"
   } ],
   "propertyAttribute" : [ {
     "range" : "2",
     "domain" : "1",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "0"
   }, {
-    "range" : "3",
+    "range" : "4",
     "domain" : "1",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "3"
+  }, {
+    "range" : "6",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "5"
   }, {
-    "range" : "7",
-    "domain" : "2",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "6"
-  }, {
-    "range" : "3",
-    "domain" : "2",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "10"
-  }, {
-    "range" : "15",
-    "domain" : "14",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "13"
-  }, {
-    "range" : "21",
-    "domain" : "20",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "19"
-  }, {
-    "range" : "26",
-    "domain" : "25",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "24"
-  }, {
-    "range" : "7",
-    "domain" : "3",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "27"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskClass",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasDevice",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
     "range" : "9",
     "label" : {
-      "IRI-based" : "hasRiskClass",
-      "en" : "has risk class?"
+      "IRI-based" : "hasDevice",
+      "en" : "has device?"
     },
-    "domain" : "29",
+    "domain" : "8",
     "comment" : {
-      "en" : "Relation between the device and its risk class (important)"
+      "en" : "Relation between the incident and the medical device"
     },
-    "attributes" : [ "object", "external", "functional" ],
-    "id" : "28"
-  }, {
-    "range" : "25",
-    "domain" : "39",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "38"
-  }, {
-    "range" : "7",
-    "domain" : "1",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "40"
-  }, {
-    "range" : "7",
-    "domain" : "42",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "41"
-  }, {
-    "range" : "3",
-    "domain" : "44",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "43"
+    "attributes" : [ "functional", "object" ],
+    "id" : "7"
   }, {
     "range" : "2",
-    "domain" : "44",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "45"
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "10"
   }, {
-    "range" : "7",
-    "domain" : "44",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "46"
+    "range" : "13",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "11"
+  }, {
+    "range" : "16",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "14"
+  }, {
+    "range" : "19",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "17"
+  }, {
+    "range" : "2",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#closure_date",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "closure_date",
+      "en" : "Closure date"
+    },
+    "domain" : "22",
+    "comment" : {
+      "en" : "The date when corretive actions end"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "21"
+  }, {
+    "range" : "18",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#authorizedBy",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "authorizedBy",
+      "en" : "Authorized by"
+    },
+    "domain" : "27",
+    "comment" : {
+      "en" : "Relation between a Manufacturer and the corresponding competent authority"
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "26"
+  }, {
+    "range" : "6",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  }, {
+    "range" : "2",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "30"
+  }, {
+    "range" : "4",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
   }, {
     "range" : "1",
-    "domain" : "44",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "47"
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "34"
   }, {
-    "range" : "26",
-    "domain" : "49",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "48"
+    "range" : "6",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "35"
+  }, {
+    "range" : "2",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "36"
+  }, {
+    "range" : "18",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
   }, {
     "iri" : "http://schema.org/description",
     "baseIri" : "http://schema.org",
-    "range" : "52",
+    "range" : "42",
     "label" : {
       "IRI-based" : "description",
       "en" : "Description"
     },
     "cardinality" : "1",
-    "domain" : "51",
+    "domain" : "41",
     "comment" : {
       "en" : "It is a description to different stuff"
     },
     "attributes" : [ "external", "datatype" ],
-    "id" : "50"
+    "id" : "40"
   }, {
     "range" : "25",
-    "domain" : "49",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "53"
-  }, {
-    "range" : "39",
-    "domain" : "49",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "54"
-  }, {
-    "range" : "26",
     "domain" : "39",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "55"
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "43"
   }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#patient_age",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "61",
-    "label" : {
-      "IRI-based" : "patient_age",
-      "en" : "Patient age"
-    },
-    "cardinality" : "1",
-    "domain" : "60",
-    "comment" : {
-      "en" : "Age of the registered patient"
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "59"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasDeviceType",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "30",
-    "label" : {
-      "IRI-based" : "hasDeviceType",
-      "en" : "has device type?"
-    },
-    "domain" : "29",
-    "comment" : {
-      "en" : "Type of medical device"
-    },
-    "attributes" : [ "object", "external", "functional" ],
-    "id" : "62"
-  }, {
-    "range" : "44",
-    "domain" : "42",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "63"
-  }, {
-    "range" : "2",
-    "domain" : "42",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "64"
-  }, {
-    "range" : "3",
-    "domain" : "42",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "65"
-  }, {
-    "range" : "1",
-    "domain" : "42",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "66"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#action_date",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "68",
-    "label" : {
-      "IRI-based" : "action_date",
-      "en" : "Action date"
-    },
-    "cardinality" : "1",
-    "domain" : "56",
-    "comment" : {
-      "en" : "The date when corrective action began"
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "67"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#probability",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "72",
-    "label" : {
-      "IRI-based" : "probability",
-      "en" : "Probability"
-    },
-    "cardinality" : "1",
-    "domain" : "71",
-    "comment" : {
-      "en" : "It can take the next values: high, medium or low"
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "70"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasActionType",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "12",
-    "label" : {
-      "IRI-based" : "hasActionType",
-      "en" : "Has action type?"
-    },
-    "domain" : "56",
-    "comment" : {
-      "en" : "Type of corrective action applied"
-    },
-    "attributes" : [ "object", "external", "functional" ],
-    "id" : "73"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#outcome",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "76",
-    "label" : {
-      "IRI-based" : "outcome",
-      "en" : "Outcome"
-    },
-    "cardinality" : "1",
-    "domain" : "60",
-    "comment" : {
-      "en" : "Impact of the incident"
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "75"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#corrective_action_taken",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "79",
-    "label" : {
-      "IRI-based" : "corrective_action_taken",
-      "en" : "Corrective action taken"
-    },
-    "cardinality" : "1",
-    "domain" : "60",
-    "comment" : {
-      "en" : "If for an incident, corrective actions was taken.\nIt can take value:true or false"
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "78"
-  }, {
-    "range" : "12",
-    "domain" : "17",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "82"
-  }, {
-    "range" : "12",
-    "domain" : "18",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "83"
-  }, {
-    "range" : "30",
-    "domain" : "31",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "84"
-  }, {
-    "range" : "30",
-    "domain" : "32",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "85"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#intended_purpose",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "87",
-    "label" : {
-      "IRI-based" : "intended_purpose",
-      "en" : "Intended purpose"
-    },
-    "cardinality" : "1",
-    "domain" : "29",
-    "comment" : {
-      "en" : "Intented purpose of a medical device"
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "86"
-  }, {
-    "range" : "12",
-    "domain" : "16",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "92"
-  }, {
-    "range" : "12",
-    "domain" : "11",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "93"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasManufacturer",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "81",
-    "label" : {
-      "IRI-based" : "hasManufacturer",
-      "en" : "has manufacturer?"
-    },
-    "domain" : "29",
-    "comment" : {
-      "en" : "Relation between a device and its incident"
-    },
-    "attributes" : [ "object", "external", "functional" ],
-    "id" : "94"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#udi_di",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "91",
-    "label" : {
-      "IRI-based" : "udi_di",
-      "en" : "UDI-DI"
-    },
-    "domain" : "29",
-    "comment" : {
-      "en" : "Identifier of medical devices"
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "101"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#imdrf_code",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "103",
-    "label" : {
-      "IRI-based" : "imdrf_code",
-      "en" : "IMDRF"
-    },
-    "cardinality" : "1",
-    "domain" : "71",
-    "comment" : {
-      "en" : "IMDRF code"
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "102"
-  }, {
-    "iri" : "http://schema.org/name",
-    "baseIri" : "http://schema.org",
-    "range" : "105",
-    "label" : {
-      "IRI-based" : "name",
-      "en" : "Name"
-    },
-    "cardinality" : "1",
-    "domain" : "51",
-    "comment" : {
-      "en" : "To name different stuff"
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "104"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#is_active",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "107",
-    "label" : {
-      "IRI-based" : "is_active",
-      "en" : "Is active?"
-    },
-    "cardinality" : "1",
-    "domain" : "29",
-    "comment" : {
-      "en" : "True if the medical is active, false if it is not."
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "106"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#severity",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "90",
-    "label" : {
-      "IRI-based" : "severity",
-      "en" : "Severity"
-    },
-    "cardinality" : "1",
-    "domain" : "71",
-    "comment" : {
-      "en" : "Level of severity of a risk. \nValues: critical, serious, moderate."
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "111"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_incident_ref",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "113",
-    "label" : {
-      "IRI-based" : "eudamed_incident_ref",
-      "en" : "EUDAMED incident ref"
-    },
-    "cardinality" : "1",
-    "domain" : "60",
-    "comment" : {
-      "en" : "EUDAMED incident reference"
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "116"
-  }, {
-    "iri" : "http://schema.org/location",
-    "baseIri" : "http://schema.org",
-    "range" : "118",
-    "label" : {
-      "IRI-based" : "location",
-      "en" : "Location"
-    },
-    "cardinality" : "1",
-    "domain" : "51",
-    "comment" : {
-      "en" : "It refers to the affected countries or those reporting."
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "117"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasDevice",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "29",
-    "label" : {
-      "IRI-based" : "hasDevice",
-      "en" : "has device?"
-    },
-    "domain" : "60",
-    "comment" : {
-      "en" : "Relation between the incident and the medical device"
-    },
-    "attributes" : [ "object", "external", "functional" ],
-    "id" : "119"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#reportingBy",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "81",
-    "label" : {
-      "IRI-based" : "reportingBy",
-      "en" : "Reporting by"
-    },
-    "domain" : "60",
-    "comment" : {
-      "en" : "Relation between incident and its manufacturer"
-    },
-    "attributes" : [ "object", "external", "functional" ],
-    "id" : "120"
-  }, {
-    "range" : "34",
-    "domain" : "31",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "124"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorization_number",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "130",
-    "label" : {
-      "IRI-based" : "authorization_number",
-      "en" : "Auth number"
-    },
-    "cardinality" : "1",
-    "domain" : "81",
-    "comment" : {
-      "en" : "Auth number of the manufacturer"
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "129"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#scope",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "89",
-    "label" : {
-      "IRI-based" : "scope",
-      "en" : "Scope"
-    },
-    "cardinality" : "1",
-    "domain" : "56",
-    "comment" : {
-      "en" : "Actions taken to eliminate the root cause of the incident"
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "131"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskCategory",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "23",
-    "label" : {
-      "IRI-based" : "hasRiskCategory",
-      "en" : "has risk category?"
-    },
-    "domain" : "71",
-    "comment" : {
-      "en" : "Relation between risk and its category"
-    },
-    "attributes" : [ "object", "external", "functional" ],
-    "id" : "132"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#event_date",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "115",
-    "label" : {
-      "IRI-based" : "event_date",
-      "en" : "Event date"
-    },
-    "cardinality" : "1",
-    "domain" : "60",
-    "comment" : {
-      "en" : "The date when incident happened"
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "133"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasAffectedDeviceType",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "30",
-    "label" : {
-      "IRI-based" : "hasAffectedDeviceType",
-      "en" : "Has affected device type?"
-    },
-    "domain" : "71",
-    "comment" : {
-      "en" : "Type of affected device in a specific risk"
-    },
-    "attributes" : [ "object", "external", "functional" ],
-    "id" : "134"
-  }, {
-    "range" : "17",
-    "domain" : "18",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "135"
-  }, {
-    "range" : "16",
-    "domain" : "18",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "136"
-  }, {
-    "range" : "16",
-    "domain" : "17",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "137"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#regulatory_framework",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "97",
-    "label" : {
-      "IRI-based" : "regulatory_framework",
-      "en" : "Regulatory framework"
-    },
-    "cardinality" : "1",
-    "domain" : "29",
-    "comment" : {
-      "en" : "MDR or IVDR, depending on the type of device"
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "138"
-  }, {
-    "range" : "128",
-    "domain" : "8",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "139"
-  }, {
-    "range" : "127",
-    "domain" : "8",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "140"
-  }, {
-    "range" : "25",
-    "domain" : "57",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "141"
-  }, {
-    "range" : "4",
-    "domain" : "96",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "142"
-  }, {
-    "range" : "4",
-    "domain" : "69",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "143"
-  }, {
-    "range" : "26",
-    "domain" : "57",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "144"
-  }, {
-    "range" : "4",
-    "domain" : "146",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "145"
-  }, {
-    "range" : "49",
-    "domain" : "57",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "147"
-  }, {
-    "range" : "4",
-    "domain" : "74",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "148"
-  }, {
-    "range" : "39",
-    "domain" : "57",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "149"
-  }, {
-    "range" : "4",
-    "domain" : "42",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "150"
-  }, {
-    "range" : "80",
-    "domain" : "57",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "151"
-  }, {
-    "range" : "4",
-    "domain" : "44",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "152"
-  }, {
-    "range" : "34",
-    "domain" : "35",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "153"
-  }, {
-    "range" : "4",
-    "domain" : "1",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "154"
-  }, {
-    "range" : "33",
-    "domain" : "35",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "155"
-  }, {
-    "range" : "31",
-    "domain" : "35",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "156"
-  }, {
-    "range" : "37",
-    "domain" : "35",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "157"
-  }, {
-    "range" : "4",
-    "domain" : "3",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "158"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_fsca_ref",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "112",
-    "label" : {
-      "IRI-based" : "eudamed_fsca_ref",
-      "en" : "EUDAMED FSCA ref"
-    },
-    "cardinality" : "1",
-    "domain" : "56",
-    "comment" : {
-      "en" : "EUDAMED FSCA reference"
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "159"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_srn",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "114",
-    "label" : {
-      "IRI-based" : "eudamed_srn",
-      "en" : "EUDAMED SRN"
-    },
-    "cardinality" : "1",
-    "domain" : "81",
-    "comment" : {
-      "en" : "EUDAMED serial registration number"
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "160"
-  }, {
-    "range" : "36",
-    "domain" : "32",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "161"
-  }, {
-    "range" : "35",
-    "domain" : "32",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "164"
-  }, {
-    "range" : "36",
-    "domain" : "35",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "165"
-  }, {
-    "range" : "163",
-    "domain" : "167",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "166"
-  }, {
-    "range" : "34",
-    "domain" : "32",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "168"
-  }, {
-    "range" : "23",
-    "domain" : "170",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "169"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#report_date",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "98",
-    "label" : {
-      "IRI-based" : "report_date",
-      "en" : "Report date"
-    },
-    "cardinality" : "1",
-    "domain" : "60",
-    "comment" : {
-      "en" : "Report date of an incident"
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "171"
-  }, {
-    "range" : "31",
-    "domain" : "32",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "172"
-  }, {
-    "range" : "23",
-    "domain" : "174",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "173"
-  }, {
-    "range" : "33",
-    "domain" : "32",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "175"
-  }, {
-    "range" : "23",
-    "domain" : "22",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "176"
-  }, {
-    "range" : "37",
-    "domain" : "32",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "177"
-  }, {
-    "range" : "23",
-    "domain" : "100",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "178"
-  }, {
-    "range" : "26",
-    "domain" : "77",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "179"
-  }, {
-    "range" : "23",
-    "domain" : "20",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "180"
-  }, {
-    "range" : "23",
-    "domain" : "21",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "181"
-  }, {
-    "range" : "57",
-    "domain" : "77",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "182"
-  }, {
-    "range" : "4",
-    "domain" : "2",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "183"
-  }, {
-    "range" : "25",
-    "domain" : "77",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "184"
-  }, {
-    "range" : "4",
-    "domain" : "7",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "185"
-  }, {
-    "range" : "7",
-    "domain" : "74",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "186"
-  }, {
-    "range" : "9",
-    "domain" : "128",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "187"
-  }, {
-    "range" : "163",
-    "domain" : "162",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "188"
-  }, {
-    "range" : "1",
-    "domain" : "74",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "189"
-  }, {
-    "range" : "44",
-    "domain" : "74",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "190"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#closure_date",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "121",
-    "label" : {
-      "IRI-based" : "closure_date",
-      "en" : "Closure date"
-    },
-    "domain" : "56",
-    "comment" : {
-      "en" : "The date when corretive actions end"
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "191"
-  }, {
-    "iri" : "http://schema.org/email",
-    "baseIri" : "http://schema.org",
-    "range" : "125",
-    "label" : {
-      "IRI-based" : "email",
-      "en" : "Email"
-    },
-    "cardinality" : "1",
-    "domain" : "51",
-    "comment" : {
-      "en" : "Email of the manufacturer"
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "192"
-  }, {
-    "range" : "42",
-    "domain" : "74",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "193"
-  }, {
-    "range" : "58",
+    "range" : "19",
     "domain" : "39",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "194"
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "44"
   }, {
-    "range" : "58",
-    "domain" : "26",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "196"
-  }, {
-    "range" : "2",
-    "domain" : "74",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "197"
-  }, {
-    "range" : "58",
-    "domain" : "99",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "198"
-  }, {
-    "range" : "146",
-    "domain" : "74",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "199"
-  }, {
-    "range" : "58",
-    "domain" : "80",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "200"
-  }, {
-    "range" : "1",
-    "domain" : "96",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "201"
-  }, {
-    "range" : "58",
-    "domain" : "57",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "202"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorizedBy",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "58",
-    "label" : {
-      "IRI-based" : "authorizedBy",
-      "en" : "Authorized by"
-    },
-    "domain" : "81",
-    "comment" : {
-      "en" : "Relation between a Manufacturer and the corresponding competent authority"
-    },
-    "attributes" : [ "object", "external", "functional" ],
-    "id" : "203"
-  }, {
-    "range" : "146",
-    "domain" : "96",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "204"
-  }, {
-    "range" : "9",
-    "domain" : "126",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "205"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#closure_date",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "195",
-    "label" : {
-      "IRI-based" : "closure_date",
-      "en" : "Closure date"
-    },
-    "domain" : "56",
-    "comment" : {
-      "en" : "The date when corretive actions end"
-    },
-    "attributes" : [ "external", "allValues", "datatype" ],
-    "id" : "206"
-  }, {
-    "range" : "9",
-    "domain" : "8",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "207"
-  }, {
-    "range" : "2",
-    "domain" : "96",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "208"
-  }, {
-    "range" : "9",
-    "domain" : "127",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "209"
-  }, {
-    "range" : "58",
+    "range" : "19",
     "domain" : "25",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "210"
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "45"
   }, {
-    "range" : "58",
-    "domain" : "77",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "211"
-  }, {
-    "range" : "42",
-    "domain" : "96",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "212"
-  }, {
-    "range" : "58",
-    "domain" : "49",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "213"
-  }, {
-    "range" : "7",
-    "domain" : "96",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "214"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#is_implantable",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "108",
-    "label" : {
-      "IRI-based" : "is_implantable",
-      "en" : "Is implantable?"
-    },
-    "cardinality" : "1",
-    "domain" : "29",
-    "comment" : {
-      "en" : "True if the medical is implantable, false if it is not."
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "215"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasIncidentType",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "88",
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasIncidentType",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "48",
     "label" : {
       "IRI-based" : "hasIncidentType",
       "en" : "has incident type?"
     },
-    "domain" : "60",
+    "domain" : "8",
     "comment" : {
       "en" : "Type of incident"
     },
-    "attributes" : [ "object", "external", "functional" ],
-    "id" : "216"
+    "attributes" : [ "functional", "object" ],
+    "id" : "47"
   }, {
-    "range" : "44",
-    "domain" : "96",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "217"
+    "range" : "1",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "49"
   }, {
-    "range" : "74",
-    "domain" : "96",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "218"
+    "range" : "6",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "50"
   }, {
-    "range" : "162",
-    "domain" : "167",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "219"
-  }, {
-    "range" : "30",
-    "domain" : "33",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "220"
-  }, {
-    "range" : "69",
-    "domain" : "96",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "221"
-  }, {
-    "range" : "30",
-    "domain" : "34",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "222"
-  }, {
-    "range" : "3",
-    "domain" : "96",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "223"
-  }, {
-    "range" : "30",
-    "domain" : "35",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "224"
-  }, {
-    "range" : "126",
-    "domain" : "127",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "225"
-  }, {
-    "range" : "30",
-    "domain" : "36",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "226"
-  }, {
-    "range" : "126",
-    "domain" : "8",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "227"
-  }, {
-    "range" : "30",
-    "domain" : "37",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "228"
-  }, {
-    "range" : "128",
-    "domain" : "126",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "229"
-  }, {
-    "range" : "88",
-    "domain" : "14",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "230"
-  }, {
-    "range" : "128",
-    "domain" : "127",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "231"
-  }, {
-    "range" : "88",
-    "domain" : "15",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "232"
-  }, {
-    "range" : "7",
-    "domain" : "69",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "233"
-  }, {
-    "range" : "44",
-    "domain" : "69",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "234"
-  }, {
-    "range" : "21",
-    "domain" : "100",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "235"
-  }, {
-    "range" : "20",
-    "domain" : "100",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "236"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRisk",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "71",
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRiskCategory",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "37",
     "label" : {
-      "IRI-based" : "hasRisk",
-      "en" : "has risk?"
+      "IRI-based" : "hasRiskCategory",
+      "en" : "has risk category?"
     },
-    "domain" : "60",
+    "domain" : "52",
     "comment" : {
-      "en" : "Relation between incident and a risk"
+      "en" : "Relation between risk and its category"
     },
-    "attributes" : [ "object", "external", "functional" ],
-    "id" : "237"
+    "attributes" : [ "functional", "object" ],
+    "id" : "51"
   }, {
-    "range" : "2",
-    "domain" : "69",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "238"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#devices_affected",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "123",
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasAffectedDeviceType",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "54",
     "label" : {
-      "IRI-based" : "devices_affected",
-      "en" : "Devices affected"
+      "IRI-based" : "hasAffectedDeviceType",
+      "en" : "Has affected device type?"
     },
-    "cardinality" : "1",
-    "domain" : "56",
+    "domain" : "52",
     "comment" : {
-      "en" : "Number of affected devices"
+      "en" : "Type of affected device in a specific risk"
     },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "239"
+    "attributes" : [ "functional", "object" ],
+    "id" : "53"
   }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskType",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
     "range" : "4",
-    "label" : {
-      "IRI-based" : "hasRiskType",
-      "en" : "has risk type?"
-    },
-    "domain" : "71",
-    "comment" : {
-      "en" : "Type of risks"
-    },
-    "attributes" : [ "object", "external", "functional" ],
-    "id" : "240"
-  }, {
-    "range" : "1",
-    "domain" : "69",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "241"
-  }, {
-    "range" : "3",
-    "domain" : "69",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "242"
-  }, {
-    "range" : "20",
-    "domain" : "22",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "243"
-  }, {
-    "range" : "100",
-    "domain" : "22",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "244"
-  }, {
-    "range" : "42",
-    "domain" : "69",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "245"
-  }, {
-    "range" : "146",
-    "domain" : "69",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "246"
-  }, {
-    "range" : "21",
-    "domain" : "170",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "247"
-  }, {
-    "range" : "20",
-    "domain" : "170",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "248"
-  }, {
-    "range" : "22",
-    "domain" : "170",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "249"
-  }, {
-    "range" : "100",
-    "domain" : "170",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "250"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasActionStatus",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "163",
-    "label" : {
-      "IRI-based" : "hasActionStatus",
-      "en" : "Has action status?"
-    },
-    "domain" : "56",
-    "comment" : {
-      "en" : "Status of a corrective aciton"
-    },
-    "attributes" : [ "object", "external", "functional" ],
-    "id" : "251"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#patient_sex",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "95",
-    "label" : {
-      "IRI-based" : "patient_sex",
-      "en" : "Patient sex"
-    },
-    "cardinality" : "1",
-    "domain" : "60",
-    "comment" : {
-      "en" : "Gender of the registered patient"
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "252"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasIncident",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "60",
-    "label" : {
-      "IRI-based" : "hasIncident",
-      "en" : "has incident?"
-    },
-    "domain" : "56",
-    "comment" : {
-      "en" : "Relation between the corrective action and its incident"
-    },
-    "attributes" : [ "object", "external", "functional" ],
-    "id" : "253"
-  }, {
-    "range" : "21",
-    "domain" : "174",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "254"
-  }, {
-    "range" : "22",
-    "domain" : "174",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "255"
-  }, {
-    "range" : "20",
-    "domain" : "174",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "256"
-  }, {
-    "range" : "69",
-    "domain" : "74",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "257"
-  }, {
-    "range" : "3",
-    "domain" : "74",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "258"
-  }, {
-    "range" : "100",
-    "domain" : "174",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "259"
-  }, {
-    "range" : "170",
-    "domain" : "174",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "260"
-  }, {
-    "range" : "7",
-    "domain" : "146",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "261"
-  }, {
-    "range" : "2",
-    "domain" : "146",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "262"
-  }, {
-    "range" : "3",
-    "domain" : "146",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "263"
-  }, {
-    "range" : "44",
-    "domain" : "146",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "264"
-  }, {
-    "range" : "34",
-    "domain" : "37",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "265"
-  }, {
-    "range" : "42",
-    "domain" : "146",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "266"
-  }, {
-    "range" : "1",
-    "domain" : "146",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "267"
-  }, {
-    "range" : "26",
-    "domain" : "99",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "268"
-  }, {
-    "range" : "57",
-    "domain" : "99",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "269"
-  }, {
-    "range" : "25",
-    "domain" : "99",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "270"
-  }, {
-    "range" : "39",
-    "domain" : "99",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "271"
-  }, {
-    "range" : "80",
-    "domain" : "99",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "272"
-  }, {
-    "range" : "80",
-    "domain" : "77",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "273"
-  }, {
-    "range" : "49",
-    "domain" : "77",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "274"
-  }, {
-    "range" : "39",
-    "domain" : "77",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "275"
-  }, {
-    "range" : "77",
-    "domain" : "99",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "276"
-  }, {
-    "range" : "49",
-    "domain" : "99",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "277"
-  }, {
-    "range" : "17",
-    "domain" : "11",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "278"
-  }, {
-    "range" : "16",
-    "domain" : "11",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "279"
-  }, {
-    "range" : "31",
-    "domain" : "37",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "280"
-  }, {
-    "range" : "18",
-    "domain" : "11",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "281"
-  }, {
-    "range" : "34",
-    "domain" : "33",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "282"
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "55"
   }, {
     "range" : "33",
-    "domain" : "36",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "283"
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "56"
   }, {
-    "range" : "37",
-    "domain" : "33",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "284"
-  }, {
-    "range" : "31",
-    "domain" : "33",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "285"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#is_ivd",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "109",
-    "label" : {
-      "IRI-based" : "is_ivd",
-      "en" : "Is ivd?"
-    },
-    "cardinality" : "1",
-    "domain" : "29",
-    "comment" : {
-      "en" : "True if the medical is ivd, false if it is not."
-    },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "286"
-  }, {
-    "range" : "34",
-    "domain" : "36",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "287"
-  }, {
-    "range" : "37",
-    "domain" : "36",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "288"
-  }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#detection_date",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "122",
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#detection_date",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "58",
     "label" : {
       "IRI-based" : "detection_date",
       "en" : "Detection date"
     },
     "cardinality" : "1",
-    "domain" : "60",
+    "domain" : "8",
     "comment" : {
       "en" : "The date when incident was detected"
     },
-    "attributes" : [ "external", "datatype" ],
-    "id" : "289"
+    "attributes" : [ "datatype" ],
+    "id" : "57"
   }, {
-    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#is_reusable",
-    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR",
-    "range" : "110",
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasManufacturer",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "hasManufacturer",
+      "en" : "has manufacturer?"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "Relation between a device and its incident"
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#report_date",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "66",
+    "label" : {
+      "IRI-based" : "report_date",
+      "en" : "Report date"
+    },
+    "cardinality" : "1",
+    "domain" : "8",
+    "comment" : {
+      "en" : "Report date of an incident"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#eudamed_srn",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "71",
+    "label" : {
+      "IRI-based" : "eudamed_srn",
+      "en" : "EUDAMED SRN"
+    },
+    "cardinality" : "1",
+    "domain" : "27",
+    "comment" : {
+      "en" : "EUDAMED serial registration number"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "70"
+  }, {
+    "range" : "37",
+    "domain" : "61",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "72"
+  }, {
+    "range" : "37",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "73"
+  }, {
+    "range" : "37",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "75"
+  }, {
+    "range" : "37",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "76"
+  }, {
+    "range" : "37",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "83"
+  }, {
+    "range" : "37",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "84"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#is_ivd",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "90",
+    "label" : {
+      "IRI-based" : "is_ivd",
+      "en" : "Is ivd?"
+    },
+    "cardinality" : "1",
+    "domain" : "9",
+    "comment" : {
+      "en" : "True if the medical is ivd, false if it is not."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "89"
+  }, {
+    "iri" : "http://schema.org/name",
+    "baseIri" : "http://schema.org",
+    "range" : "93",
+    "label" : {
+      "IRI-based" : "name",
+      "en" : "Name"
+    },
+    "cardinality" : "1",
+    "domain" : "41",
+    "comment" : {
+      "en" : "To name different stuff"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#is_implantable",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "96",
+    "label" : {
+      "IRI-based" : "is_implantable",
+      "en" : "Is implantable?"
+    },
+    "cardinality" : "1",
+    "domain" : "9",
+    "comment" : {
+      "en" : "True if the medical is implantable, false if it is not."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "95"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#is_reusable",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "99",
     "label" : {
       "IRI-based" : "is_reusable",
       "en" : "Is reusable?"
     },
     "cardinality" : "1",
-    "domain" : "29",
+    "domain" : "9",
     "comment" : {
       "en" : "True if the medical is reusable, false if it is not."
     },
+    "attributes" : [ "datatype" ],
+    "id" : "98"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#regulatory_framework",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "88",
+    "label" : {
+      "IRI-based" : "regulatory_framework",
+      "en" : "Regulatory framework"
+    },
+    "cardinality" : "1",
+    "domain" : "9",
+    "comment" : {
+      "en" : "MDR or IVDR, depending on the type of device"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "103"
+  }, {
+    "iri" : "http://schema.org/location",
+    "baseIri" : "http://schema.org",
+    "range" : "107",
+    "label" : {
+      "IRI-based" : "location",
+      "en" : "Location"
+    },
+    "cardinality" : "1",
+    "domain" : "41",
+    "comment" : {
+      "en" : "It refers to the affected countries or those reporting."
+    },
     "attributes" : [ "external", "datatype" ],
-    "id" : "290"
+    "id" : "106"
   }, {
-    "range" : "31",
-    "domain" : "36",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "291"
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRiskClass",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "68",
+    "label" : {
+      "IRI-based" : "hasRiskClass",
+      "en" : "has risk class?"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "Relation between the device and its risk class (important)"
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "111"
   }, {
-    "range" : "26",
-    "domain" : "80",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "292"
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRiskType",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "79",
+    "label" : {
+      "IRI-based" : "hasRiskType",
+      "en" : "has risk type?"
+    },
+    "domain" : "52",
+    "comment" : {
+      "en" : "Type of risks"
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "113"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#eudamed_fsca_ref",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "101",
+    "label" : {
+      "IRI-based" : "eudamed_fsca_ref",
+      "en" : "EUDAMED FSCA ref"
+    },
+    "cardinality" : "1",
+    "domain" : "22",
+    "comment" : {
+      "en" : "EUDAMED FSCA reference"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "116"
+  }, {
+    "range" : "119",
+    "domain" : "118",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "117"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#patient_sex",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "86",
+    "label" : {
+      "IRI-based" : "patient_sex",
+      "en" : "Patient sex"
+    },
+    "cardinality" : "1",
+    "domain" : "8",
+    "comment" : {
+      "en" : "Gender of the registered patient"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "123"
+  }, {
+    "range" : "74",
+    "domain" : "128",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "127"
+  }, {
+    "range" : "59",
+    "domain" : "128",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "129"
+  }, {
+    "range" : "74",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "130"
+  }, {
+    "range" : "69",
+    "domain" : "132",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "131"
+  }, {
+    "range" : "67",
+    "domain" : "132",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "133"
+  }, {
+    "range" : "18",
+    "domain" : "135",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "134"
+  }, {
+    "range" : "28",
+    "domain" : "137",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "136"
+  }, {
+    "range" : "28",
+    "domain" : "135",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "138"
   }, {
     "range" : "25",
-    "domain" : "80",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "293"
+    "domain" : "135",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "139"
   }, {
-    "range" : "49",
-    "domain" : "80",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "294"
+    "range" : "28",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "140"
+  }, {
+    "range" : "19",
+    "domain" : "135",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "141"
+  }, {
+    "range" : "28",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "142"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#reportingBy",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "reportingBy",
+      "en" : "Reporting by"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "Relation between incident and its manufacturer"
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "143"
   }, {
     "range" : "39",
-    "domain" : "80",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "135",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "144"
+  }, {
+    "range" : "28",
+    "domain" : "146",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "145"
+  }, {
+    "range" : "148",
+    "domain" : "135",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "147"
+  }, {
+    "range" : "28",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "149"
+  }, {
+    "range" : "151",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "150"
+  }, {
+    "range" : "28",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "152"
+  }, {
+    "range" : "118",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "153"
+  }, {
+    "range" : "28",
+    "domain" : "148",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "154"
+  }, {
+    "range" : "119",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "155"
+  }, {
+    "range" : "157",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "156"
+  }, {
+    "range" : "28",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "158"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasActionType",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "hasActionType",
+      "en" : "Has action type?"
+    },
+    "domain" : "22",
+    "comment" : {
+      "en" : "Type of corrective action applied"
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "159"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#probability",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "87",
+    "label" : {
+      "IRI-based" : "probability",
+      "en" : "Probability"
+    },
+    "cardinality" : "1",
+    "domain" : "52",
+    "comment" : {
+      "en" : "It can take the next values: high, medium or low"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "160"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#outcome",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "100",
+    "label" : {
+      "IRI-based" : "outcome",
+      "en" : "Outcome"
+    },
+    "cardinality" : "1",
+    "domain" : "8",
+    "comment" : {
+      "en" : "Impact of the incident"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "161"
+  }, {
+    "range" : "163",
+    "domain" : "112",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "162"
+  }, {
+    "range" : "157",
+    "domain" : "112",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "164"
+  }, {
+    "range" : "163",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "165"
+  }, {
+    "range" : "54",
+    "domain" : "112",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "166"
+  }, {
+    "range" : "94",
+    "domain" : "112",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "167"
+  }, {
+    "range" : "54",
+    "domain" : "157",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "168"
+  }, {
+    "range" : "118",
+    "domain" : "112",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "169"
+  }, {
+    "range" : "54",
+    "domain" : "119",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "170"
+  }, {
+    "range" : "151",
+    "domain" : "112",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "171"
+  }, {
+    "range" : "68",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "172"
+  }, {
+    "range" : "119",
+    "domain" : "112",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "173"
+  }, {
+    "range" : "68",
+    "domain" : "132",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "174"
+  }, {
+    "range" : "39",
+    "domain" : "137",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "175"
+  }, {
+    "range" : "68",
+    "domain" : "67",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "176"
+  }, {
+    "range" : "68",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "177"
+  }, {
+    "range" : "148",
+    "domain" : "137",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "178"
+  }, {
+    "range" : "48",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "179"
+  }, {
+    "range" : "19",
+    "domain" : "137",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "180"
+  }, {
+    "range" : "48",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "181"
+  }, {
+    "range" : "4",
+    "domain" : "91",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "182"
+  }, {
+    "range" : "54",
+    "domain" : "163",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "183"
+  }, {
+    "range" : "54",
+    "domain" : "151",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "184"
+  }, {
+    "range" : "33",
+    "domain" : "91",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "185"
+  }, {
+    "range" : "31",
+    "domain" : "91",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "187"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#intended_purpose",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "108",
+    "label" : {
+      "IRI-based" : "intended_purpose",
+      "en" : "Intended purpose"
+    },
+    "cardinality" : "1",
+    "domain" : "9",
+    "comment" : {
+      "en" : "Intented purpose of a medical device"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "188"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#devices_affected",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "115",
+    "label" : {
+      "IRI-based" : "devices_affected",
+      "en" : "Devices affected"
+    },
+    "cardinality" : "1",
+    "domain" : "22",
+    "comment" : {
+      "en" : "Number of affected devices"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "189"
+  }, {
+    "iri" : "http://schema.org/email",
+    "baseIri" : "http://schema.org",
+    "range" : "120",
+    "label" : {
+      "IRI-based" : "email",
+      "en" : "Email"
+    },
+    "cardinality" : "1",
+    "domain" : "41",
+    "comment" : {
+      "en" : "Email of the manufacturer"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "190"
+  }, {
+    "range" : "109",
+    "domain" : "91",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "191"
+  }, {
+    "range" : "124",
+    "domain" : "125",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "192"
+  }, {
+    "range" : "124",
+    "domain" : "126",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "194"
+  }, {
+    "range" : "78",
+    "domain" : "91",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "195"
+  }, {
+    "range" : "60",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "196"
+  }, {
+    "range" : "6",
+    "domain" : "91",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "197"
+  }, {
+    "range" : "60",
+    "domain" : "186",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "198"
+  }, {
+    "range" : "33",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "199"
+  }, {
+    "range" : "60",
+    "domain" : "128",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "200"
+  }, {
+    "range" : "6",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "201"
+  }, {
+    "range" : "60",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "202"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#closure_date",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "193",
+    "label" : {
+      "IRI-based" : "closure_date",
+      "en" : "Closure date"
+    },
+    "domain" : "22",
+    "comment" : {
+      "en" : "The date when corretive actions end"
+    },
+    "attributes" : [ "allValues", "datatype" ],
+    "id" : "203"
+  }, {
+    "range" : "54",
+    "domain" : "118",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "204"
+  }, {
+    "range" : "109",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "205"
+  }, {
+    "range" : "54",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "206"
+  }, {
+    "range" : "79",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "207"
+  }, {
+    "range" : "79",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "208"
+  }, {
+    "range" : "31",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "209"
+  }, {
+    "range" : "79",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "210"
+  }, {
+    "range" : "4",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "211"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasActionStatus",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "124",
+    "label" : {
+      "IRI-based" : "hasActionStatus",
+      "en" : "Has action status?"
+    },
+    "domain" : "22",
+    "comment" : {
+      "en" : "Status of a corrective aciton"
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "212"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#patient_age",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "patient_age",
+      "en" : "Patient age"
+    },
+    "cardinality" : "1",
+    "domain" : "8",
+    "comment" : {
+      "en" : "Age of the registered patient"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "213"
+  }, {
+    "range" : "1",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "214"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasIncident",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "hasIncident",
+      "en" : "has incident?"
+    },
+    "domain" : "22",
+    "comment" : {
+      "en" : "Relation between the corrective action and its incident"
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "215"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRisk",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "hasRisk",
+      "en" : "has risk?"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "Relation between incident and a risk"
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "216"
+  }, {
+    "range" : "91",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "217"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#severity",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "81",
+    "label" : {
+      "IRI-based" : "severity",
+      "en" : "Severity"
+    },
+    "cardinality" : "1",
+    "domain" : "52",
+    "comment" : {
+      "en" : "Level of severity of a risk. \nValues: critical, serious, moderate."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "218"
+  }, {
+    "range" : "125",
+    "domain" : "126",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "219"
+  }, {
+    "range" : "79",
+    "domain" : "109",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "220"
+  }, {
+    "range" : "2",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "221"
+  }, {
+    "range" : "79",
+    "domain" : "91",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "222"
+  }, {
+    "range" : "78",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "223"
+  }, {
+    "range" : "79",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "224"
+  }, {
+    "range" : "69",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "225"
+  }, {
+    "range" : "79",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "226"
+  }, {
+    "range" : "77",
+    "domain" : "132",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "227"
+  }, {
+    "range" : "79",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "228"
+  }, {
+    "range" : "67",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "229"
+  }, {
+    "range" : "79",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "230"
+  }, {
+    "range" : "67",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "231"
+  }, {
+    "range" : "79",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "232"
+  }, {
+    "range" : "1",
+    "domain" : "109",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "233"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#action_date",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "121",
+    "label" : {
+      "IRI-based" : "action_date",
+      "en" : "Action date"
+    },
+    "cardinality" : "1",
+    "domain" : "22",
+    "comment" : {
+      "en" : "The date when corrective action began"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "234"
+  }, {
+    "range" : "6",
+    "domain" : "109",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "235"
+  }, {
+    "range" : "15",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "236"
+  }, {
+    "range" : "16",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "237"
+  }, {
+    "range" : "78",
+    "domain" : "109",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "238"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#eudamed_incident_ref",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "102",
+    "label" : {
+      "IRI-based" : "eudamed_incident_ref",
+      "en" : "EUDAMED incident ref"
+    },
+    "cardinality" : "1",
+    "domain" : "8",
+    "comment" : {
+      "en" : "EUDAMED incident reference"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "239"
+  }, {
+    "range" : "31",
+    "domain" : "109",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "240"
+  }, {
+    "range" : "4",
+    "domain" : "109",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "241"
+  }, {
+    "range" : "63",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "242"
+  }, {
+    "range" : "15",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "243"
+  }, {
+    "range" : "33",
+    "domain" : "109",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "244"
+  }, {
+    "range" : "2",
+    "domain" : "109",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "245"
+  }, {
+    "range" : "16",
+    "domain" : "61",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "246"
+  }, {
+    "range" : "62",
+    "domain" : "61",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "247"
+  }, {
+    "range" : "63",
+    "domain" : "61",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "248"
+  }, {
+    "range" : "15",
+    "domain" : "61",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "249"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#authorization_number",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "122",
+    "label" : {
+      "IRI-based" : "authorization_number",
+      "en" : "Auth number"
+    },
+    "cardinality" : "1",
+    "domain" : "27",
+    "comment" : {
+      "en" : "Auth number of the manufacturer"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "250"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#corrective_action_taken",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "114",
+    "label" : {
+      "IRI-based" : "corrective_action_taken",
+      "en" : "Corrective action taken"
+    },
+    "cardinality" : "1",
+    "domain" : "8",
+    "comment" : {
+      "en" : "If for an incident, corrective actions was taken.\nIt can take value:true or false"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "251"
+  }, {
+    "range" : "16",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "252"
+  }, {
+    "range" : "61",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "253"
+  }, {
+    "range" : "62",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "254"
+  }, {
+    "range" : "1",
+    "domain" : "91",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "255"
+  }, {
+    "range" : "2",
+    "domain" : "91",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "256"
+  }, {
+    "range" : "15",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "257"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#scope",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "80",
+    "label" : {
+      "IRI-based" : "scope",
+      "en" : "Scope"
+    },
+    "cardinality" : "1",
+    "domain" : "22",
+    "comment" : {
+      "en" : "Actions taken to eliminate the root cause of the incident"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "258"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#event_date",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "event_date",
+      "en" : "Event date"
+    },
+    "cardinality" : "1",
+    "domain" : "8",
+    "comment" : {
+      "en" : "The date when incident happened"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "259"
+  }, {
+    "range" : "63",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "260"
+  }, {
+    "range" : "33",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "261"
+  }, {
+    "range" : "2",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "262"
+  }, {
+    "range" : "6",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "263"
+  }, {
+    "range" : "1",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "264"
+  }, {
+    "range" : "119",
+    "domain" : "151",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "265"
+  }, {
+    "range" : "4",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "266"
+  }, {
+    "range" : "31",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "267"
+  }, {
+    "range" : "137",
+    "domain" : "146",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "268"
+  }, {
+    "range" : "18",
+    "domain" : "146",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "269"
+  }, {
+    "range" : "39",
+    "domain" : "146",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "270"
+  }, {
+    "range" : "148",
+    "domain" : "146",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "271"
+  }, {
+    "range" : "25",
+    "domain" : "146",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "272"
+  }, {
+    "range" : "18",
+    "domain" : "137",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "273"
+  }, {
+    "range" : "135",
+    "domain" : "137",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "274"
+  }, {
+    "range" : "25",
+    "domain" : "137",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "275"
+  }, {
+    "range" : "19",
+    "domain" : "146",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "276"
+  }, {
+    "range" : "135",
+    "domain" : "146",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "277"
+  }, {
+    "range" : "128",
+    "domain" : "186",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "278"
+  }, {
+    "range" : "74",
+    "domain" : "186",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "279"
+  }, {
+    "range" : "118",
+    "domain" : "151",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "280"
+  }, {
+    "range" : "59",
+    "domain" : "186",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "281"
+  }, {
+    "range" : "119",
+    "domain" : "157",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "282"
+  }, {
+    "range" : "157",
+    "domain" : "163",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "283"
+  }, {
+    "range" : "151",
+    "domain" : "157",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "284"
+  }, {
+    "range" : "118",
+    "domain" : "157",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "285"
+  }, {
+    "range" : "119",
+    "domain" : "163",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "286"
+  }, {
+    "range" : "118",
+    "domain" : "163",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "287"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#udi_di",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "82",
+    "label" : {
+      "IRI-based" : "udi_di",
+      "en" : "UDI-DI"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "Identifier of medical devices"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "288"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#is_active",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "97",
+    "label" : {
+      "IRI-based" : "is_active",
+      "en" : "Is active?"
+    },
+    "cardinality" : "1",
+    "domain" : "9",
+    "comment" : {
+      "en" : "True if the medical is active, false if it is not."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "289"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#imdrf_code",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "105",
+    "label" : {
+      "IRI-based" : "imdrf_code",
+      "en" : "IMDRF"
+    },
+    "cardinality" : "1",
+    "domain" : "52",
+    "comment" : {
+      "en" : "IMDRF code"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "290"
+  }, {
+    "range" : "151",
+    "domain" : "163",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "291"
+  }, {
+    "iri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasDeviceType",
+    "baseIri" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "hasDeviceType",
+      "en" : "has device type?"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "Type of medical device"
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "292"
+  }, {
+    "range" : "39",
+    "domain" : "148",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "293"
+  }, {
+    "range" : "25",
+    "domain" : "148",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "294"
+  }, {
+    "range" : "19",
+    "domain" : "148",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "295"
+  }, {
+    "range" : "18",
+    "domain" : "148",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "296"
   } ]
 }

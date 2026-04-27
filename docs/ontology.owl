@@ -10,13 +10,13 @@
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:schema="http://schema.org/"
-     xmlns:clasificacion_MDR_IVDR="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#">
+     xmlns:clasification_MDR_IVDR="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR">
         <owl:versionIRI rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR/1.0.0"/>
         <terms:bibliographicCitation xml:lang="en">Beatriz I. S. - Classification of medical devices and in vitro diagnostic devices according to the European MDR and IVDR regulations</terms:bibliographicCitation>
         <terms:created xml:lang="en">2026-04-20</terms:created>
         <terms:creator xml:lang="en">Beatriz Istanbouli Sahelieh</terms:creator>
-        <terms:description xml:lang="en">An ontology designed to map the various high-risk medical devices, as well as in vitro diagnostic devices, in accordance with European regulations under the MDR (medical devices in classes I, IIa, IIb, III) and IVDR (in vitro diagnostic devices in classes A, B, C, D), linking devices to their manufacturers, risks, reported incidents, and corrective actions.
+        <terms:description xml:lang="en">An ontology designed to map the various high-risk medical devices, as well as in vitro diagnostic devices, in accordance with European regulations under the MDR and IVDR, linking devices to their manufacturers, risks, reported incidents, and corrective actions.
 
 We do this using the LOT methodology.
 
@@ -151,182 +151,182 @@ Purpose and use case: to standardize and enable interoperability of information 
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorizedBy -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#authorizedBy -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorizedBy">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#authorizedBy">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Manufacturer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CompetentAuthority"/>
         <rdfs:comment xml:lang="en">Relation between a Manufacturer and the corresponding competent authority</rdfs:comment>
         <rdfs:label xml:lang="en">Authorized by</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasActionStatus -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasActionStatus -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasActionStatus">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasActionStatus">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CorrectiveAction"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActionStatus"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CorrectiveAction"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActionStatus"/>
         <rdfs:comment xml:lang="en">Status of a corrective aciton</rdfs:comment>
         <rdfs:label xml:lang="en">Has action status?</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasActionType -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasActionType -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasActionType">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasActionType">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CorrectiveAction"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActionType"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CorrectiveAction"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActionType"/>
         <rdfs:comment xml:lang="en">Type of corrective action applied</rdfs:comment>
         <rdfs:label xml:lang="en">Has action type?</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasAffectedDeviceType -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasAffectedDeviceType -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasAffectedDeviceType">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasAffectedDeviceType">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Risk"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceType"/>
         <rdfs:comment xml:lang="en">Type of affected device in a specific risk</rdfs:comment>
         <rdfs:label xml:lang="en">Has affected device type?</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasDevice -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasDevice -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasDevice">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasDevice">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device"/>
         <rdfs:comment xml:lang="en">Relation between the incident and the medical device</rdfs:comment>
         <rdfs:label xml:lang="en">has device?</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasDeviceType -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasDeviceType -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasDeviceType">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasDeviceType">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceType"/>
         <rdfs:comment xml:lang="en">Type of medical device</rdfs:comment>
         <rdfs:label xml:lang="en">has device type?</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasIncident -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasIncident -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasIncident">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasIncident">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CorrectiveAction"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CorrectiveAction"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"/>
         <rdfs:comment xml:lang="en">Relation between the corrective action and its incident</rdfs:comment>
         <rdfs:label xml:lang="en">has incident?</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasIncidentType -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasIncidentType -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasIncidentType">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasIncidentType">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#IncidentType"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#IncidentType"/>
         <rdfs:comment xml:lang="en">Type of incident</rdfs:comment>
         <rdfs:label xml:lang="en">has incident type?</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasManufacturer -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasManufacturer -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasManufacturer">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasManufacturer">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Manufacturer"/>
         <rdfs:comment xml:lang="en">Relation between a device and its incident</rdfs:comment>
         <rdfs:label xml:lang="en">has manufacturer?</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRisk -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRisk -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRisk">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRisk">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Risk"/>
         <rdfs:comment xml:lang="en">Relation between incident and a risk</rdfs:comment>
         <rdfs:label xml:lang="en">has risk?</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskCategory -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRiskCategory -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskCategory">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRiskCategory">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskCategory"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Risk"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskCategory"/>
         <rdfs:comment xml:lang="en">Relation between risk and its category</rdfs:comment>
         <rdfs:label xml:lang="en">has risk category?</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskClass -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRiskClass -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskClass">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRiskClass">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskClass"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskClass"/>
         <rdfs:comment xml:lang="en">Relation between the device and its risk class (important)</rdfs:comment>
         <rdfs:label xml:lang="en">has risk class?</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskType -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRiskType -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskType">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRiskType">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Risk"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskType"/>
         <rdfs:comment xml:lang="en">Type of risks</rdfs:comment>
         <rdfs:label xml:lang="en">has risk type?</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#reportingBy -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#reportingBy -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#reportingBy">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#reportingBy">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Manufacturer"/>
         <rdfs:comment xml:lang="en">Relation between incident and its manufacturer</rdfs:comment>
         <rdfs:label xml:lang="en">Reporting by</rdfs:label>
     </owl:ObjectProperty>
@@ -389,11 +389,11 @@ Purpose and use case: to standardize and enable interoperability of information 
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#action_date -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#action_date -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#action_date">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CorrectiveAction"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#action_date">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CorrectiveAction"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
         <rdfs:comment xml:lang="en">The date when corrective action began</rdfs:comment>
         <rdfs:label xml:lang="en">Action date</rdfs:label>
@@ -401,11 +401,11 @@ Purpose and use case: to standardize and enable interoperability of information 
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorization_number -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#authorization_number -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorization_number">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#authorization_number">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Manufacturer"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">Auth number of the manufacturer</rdfs:comment>
         <rdfs:label xml:lang="en">Auth number</rdfs:label>
@@ -413,11 +413,11 @@ Purpose and use case: to standardize and enable interoperability of information 
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#closure_date -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#closure_date -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#closure_date">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CorrectiveAction"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#closure_date">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CorrectiveAction"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
         <rdfs:comment xml:lang="en">The date when corretive actions end</rdfs:comment>
         <rdfs:label xml:lang="en">Closure date</rdfs:label>
@@ -425,11 +425,11 @@ Purpose and use case: to standardize and enable interoperability of information 
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#corrective_action_taken -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#corrective_action_taken -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#corrective_action_taken">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#corrective_action_taken">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:comment xml:lang="en">If for an incident, corrective actions was taken.
 It can take value:true or false</rdfs:comment>
@@ -438,11 +438,11 @@ It can take value:true or false</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#detection_date -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#detection_date -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#detection_date">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#detection_date">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
         <rdfs:comment xml:lang="en">The date when incident was detected</rdfs:comment>
         <rdfs:label xml:lang="en">Detection date</rdfs:label>
@@ -450,11 +450,11 @@ It can take value:true or false</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#devices_affected -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#devices_affected -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#devices_affected">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CorrectiveAction"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#devices_affected">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CorrectiveAction"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:comment xml:lang="en">Number of affected devices</rdfs:comment>
         <rdfs:label xml:lang="en">Devices affected</rdfs:label>
@@ -462,11 +462,11 @@ It can take value:true or false</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_fsca_ref -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#eudamed_fsca_ref -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_fsca_ref">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CorrectiveAction"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#eudamed_fsca_ref">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CorrectiveAction"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">EUDAMED FSCA reference</rdfs:comment>
         <rdfs:label xml:lang="en">EUDAMED FSCA ref</rdfs:label>
@@ -474,11 +474,11 @@ It can take value:true or false</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_incident_ref -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#eudamed_incident_ref -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_incident_ref">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#eudamed_incident_ref">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">EUDAMED incident reference</rdfs:comment>
         <rdfs:label xml:lang="en">EUDAMED incident ref</rdfs:label>
@@ -486,11 +486,11 @@ It can take value:true or false</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_srn -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#eudamed_srn -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_srn">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#eudamed_srn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Manufacturer"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">EUDAMED serial registration number</rdfs:comment>
         <rdfs:label xml:lang="en">EUDAMED SRN</rdfs:label>
@@ -498,11 +498,11 @@ It can take value:true or false</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#event_date -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#event_date -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#event_date">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#event_date">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
         <rdfs:comment xml:lang="en">The date when incident happened</rdfs:comment>
         <rdfs:label xml:lang="en">Event date</rdfs:label>
@@ -510,11 +510,11 @@ It can take value:true or false</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#imdrf_code -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#imdrf_code -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#imdrf_code">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#imdrf_code">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Risk"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">IMDRF code</rdfs:comment>
         <rdfs:label xml:lang="en">IMDRF</rdfs:label>
@@ -522,11 +522,11 @@ It can take value:true or false</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#intended_purpose -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#intended_purpose -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#intended_purpose">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#intended_purpose">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">Intented purpose of a medical device</rdfs:comment>
         <rdfs:label xml:lang="en">Intended purpose</rdfs:label>
@@ -534,11 +534,11 @@ It can take value:true or false</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#is_active -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#is_active -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#is_active">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#is_active">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:comment xml:lang="en">True if the medical is active, false if it is not.</rdfs:comment>
         <rdfs:label xml:lang="en">Is active?</rdfs:label>
@@ -546,11 +546,11 @@ It can take value:true or false</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#is_implantable -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#is_implantable -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#is_implantable">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#is_implantable">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:comment xml:lang="en">True if the medical is implantable, false if it is not.</rdfs:comment>
         <rdfs:label xml:lang="en">Is implantable?</rdfs:label>
@@ -558,11 +558,11 @@ It can take value:true or false</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#is_ivd -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#is_ivd -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#is_ivd">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#is_ivd">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:comment xml:lang="en">True if the medical is ivd, false if it is not.</rdfs:comment>
         <rdfs:label xml:lang="en">Is ivd?</rdfs:label>
@@ -570,11 +570,11 @@ It can take value:true or false</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#is_reusable -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#is_reusable -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#is_reusable">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#is_reusable">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:comment xml:lang="en">True if the medical is reusable, false if it is not.</rdfs:comment>
         <rdfs:label xml:lang="en">Is reusable?</rdfs:label>
@@ -582,11 +582,11 @@ It can take value:true or false</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#outcome -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#outcome -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#outcome">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#outcome">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">Impact of the incident</rdfs:comment>
         <rdfs:label xml:lang="en">Outcome</rdfs:label>
@@ -594,11 +594,11 @@ It can take value:true or false</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#patient_age -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#patient_age -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#patient_age">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#patient_age">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:comment xml:lang="en">Age of the registered patient</rdfs:comment>
         <rdfs:label xml:lang="en">Patient age</rdfs:label>
@@ -606,11 +606,11 @@ It can take value:true or false</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#patient_sex -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#patient_sex -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#patient_sex">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#patient_sex">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">Gender of the registered patient</rdfs:comment>
         <rdfs:label xml:lang="en">Patient sex</rdfs:label>
@@ -618,11 +618,11 @@ It can take value:true or false</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#probability -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#probability -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#probability">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#probability">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Risk"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">It can take the next values: high, medium or low</rdfs:comment>
         <rdfs:label xml:lang="en">Probability</rdfs:label>
@@ -630,11 +630,11 @@ It can take value:true or false</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#regulatory_framework -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#regulatory_framework -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#regulatory_framework">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#regulatory_framework">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">MDR or IVDR, depending on the type of device</rdfs:comment>
         <rdfs:label xml:lang="en">Regulatory framework</rdfs:label>
@@ -642,11 +642,11 @@ It can take value:true or false</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#report_date -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#report_date -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#report_date">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#report_date">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
         <rdfs:comment xml:lang="en">Report date of an incident</rdfs:comment>
         <rdfs:label xml:lang="en">Report date</rdfs:label>
@@ -654,11 +654,11 @@ It can take value:true or false</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#scope -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#scope -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#scope">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CorrectiveAction"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#scope">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CorrectiveAction"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">Actions taken to eliminate the root cause of the incident</rdfs:comment>
         <rdfs:label xml:lang="en">Scope</rdfs:label>
@@ -666,11 +666,11 @@ It can take value:true or false</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#severity -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#severity -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#severity">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#severity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Risk"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">Level of severity of a risk. 
 Values: critical, serious, moderate.</rdfs:comment>
@@ -679,11 +679,11 @@ Values: critical, serious, moderate.</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#udi_di -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#udi_di -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#udi_di">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#udi_di">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">Identifier of medical devices</rdfs:comment>
         <rdfs:label xml:lang="en">UDI-DI</rdfs:label>
@@ -703,230 +703,231 @@ Values: critical, serious, moderate.</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#AFMPS -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#AFMPS -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#AFMPS">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ANSM"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#BfArM"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#HPRA"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MHRA"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MPA"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RIVM"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Swissmedic"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#AFMPS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CompetentAuthority"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ANSM"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#BfArM"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#HPRA"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MHRA"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MPA"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RIVM"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Swissmedic"/>
         <rdfs:comment xml:lang="fr">Agence Fédérale des Médicaments et des Produits de Santé</rdfs:comment>
         <rdfs:label>AFMPS</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ANSM -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ANSM -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ANSM">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#BfArM"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#HPRA"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MHRA"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MPA"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RIVM"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Swissmedic"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ANSM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CompetentAuthority"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#BfArM"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#HPRA"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MHRA"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MPA"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RIVM"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Swissmedic"/>
         <rdfs:comment xml:lang="fr-be">Agence Nationale de Sécurité du Médicament et des Produits de Santé</rdfs:comment>
         <rdfs:label>ANSM</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActionStatus -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActionStatus -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActionStatus">
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActionStatus">
         <rdfs:comment xml:lang="en">Corrective action status</rdfs:comment>
         <rdfs:label xml:lang="en">Action status</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActionType -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActionType -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActionType">
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActionType">
         <rdfs:comment xml:lang="en">Type of corrective action</rdfs:comment>
         <rdfs:label xml:lang="en">Action type</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Active -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Active -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Active">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActiveImplant"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Implantable"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ImplantableActive"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#InVitroDiagnostic"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SelfTest"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SingleUse"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Active">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceType"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActiveImplant"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Implantable"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ImplantableActive"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#InVitroDiagnostic"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SelfTest"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SingleUse"/>
         <rdfs:comment>It is any medical device that relies on a source of energy other than that generated directly by the human body or gravity.</rdfs:comment>
         <rdfs:label xml:lang="en">Active</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActiveImplant -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActiveImplant -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActiveImplant">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Implantable"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ImplantableActive"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#InVitroDiagnostic"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SelfTest"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SingleUse"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActiveImplant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceType"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Implantable"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ImplantableActive"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#InVitroDiagnostic"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SelfTest"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SingleUse"/>
         <rdfs:comment xml:lang="en">Any device relying on a power source other than human energy or gravity, intended to be totally or partially introduced into the body (or replacing an eye surface) via clinical intervention and intended to remain after the procedure</rdfs:comment>
         <rdfs:label xml:lang="en">Active implant</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#BfArM -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#BfArM -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#BfArM">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#HPRA"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MHRA"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MPA"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RIVM"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Swissmedic"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#BfArM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CompetentAuthority"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#HPRA"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MHRA"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MPA"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RIVM"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Swissmedic"/>
         <rdfs:comment xml:lang="de">Bundesinstitut für Arzneimittel und Medizinprodukte</rdfs:comment>
         <rdfs:label>BfArM</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassI -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassI -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassI">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskClass"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassIII"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassIIa"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassIIb"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskClass"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassIII"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassIIa"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassIIb"/>
         <rdfs:comment xml:lang="en">Devices with minimal risk to patient safety, such as non-electronic walking aids, bandages, or simple surgical instruments.</rdfs:comment>
         <rdfs:label xml:lang="en">Class I</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassIII -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassIII -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassIII">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskClass"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassIIa"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassIIb"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassIII">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskClass"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassIIa"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassIIb"/>
         <rdfs:comment xml:lang="en">Devices with the highest risk profile, which are vital for supporting life, have direct contact with the heart/central circulatory system, or are permanently implanted, such as cardiac pacemakers, heart valves, and breast implants.</rdfs:comment>
         <rdfs:label xml:lang="en">Class III</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassIIa -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassIIa -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassIIa">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskClass"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassIIb"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassIIa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskClass"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassIIb"/>
         <rdfs:comment xml:lang="en">Devices with a moderate risk level, often used for short-term, non-critical, or diagnostic purposes, such as hearing aids, ultrasound equipment, or standard catheters.</rdfs:comment>
         <rdfs:label xml:lang="en">Class IIa</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassIIb -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassIIb -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassIIb">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskClass"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassIIb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskClass"/>
         <rdfs:comment xml:lang="en">Devices that pose significant risk, often including active devices meant for monitoring or administering substances, or long-term implants, such as ventilators, infusion pumps, or bone fixation devices.</rdfs:comment>
         <rdfs:label xml:lang="en">Class IIb</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Closed -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Closed -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Closed">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActionStatus"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Open"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Closed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActionStatus"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Open"/>
         <rdfs:comment xml:lang="en">Corrective Action is closed</rdfs:comment>
         <rdfs:label xml:lang="en">Closed</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CompetentAuthority -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority">
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CompetentAuthority">
         <rdfs:comment xml:lang="en">Class of Competent Authorities</rdfs:comment>
         <rdfs:label xml:lang="en">Competent authority</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Contamination -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Contamination -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Contamination">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Cybersecurity"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Diagnostic"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Infection"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Injury"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Interference"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Malfunction"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Material"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Radiation"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Software"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Contamination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskType"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Cybersecurity"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Diagnostic"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Infection"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Injury"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Interference"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Malfunction"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Material"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Radiation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Software"/>
         <rdfs:comment xml:lang="en">Risks caused by contamination</rdfs:comment>
         <rdfs:label xml:lang="en">Contamination</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CorrectiveAction -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CorrectiveAction -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CorrectiveAction">
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CorrectiveAction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CompetentAuthority"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasActionStatus"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasActionStatus"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActionStatus"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActionStatus"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasActionType"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasActionType"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActionType"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActionType"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasIncident"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasIncident"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#closure_date"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#closure_date"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -939,28 +940,28 @@ Values: critical, serious, moderate.</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#action_date"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#action_date"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#devices_affected"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#devices_affected"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_fsca_ref"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#eudamed_fsca_ref"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#scope"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#scope"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
@@ -972,48 +973,48 @@ Values: critical, serious, moderate.</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Cybersecurity -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Cybersecurity -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Cybersecurity">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Diagnostic"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Infection"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Injury"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Interference"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Malfunction"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Material"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Radiation"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Software"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Cybersecurity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskType"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Diagnostic"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Infection"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Injury"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Interference"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Malfunction"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Material"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Radiation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Software"/>
         <rdfs:comment xml:lang="en">Risks caused by cybersecurity</rdfs:comment>
         <rdfs:label xml:lang="en">Cybersecurity</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device">
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasDeviceType"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasDeviceType"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceType"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasManufacturer"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasManufacturer"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Manufacturer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskClass"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRiskClass"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskClass"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskClass"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1025,42 +1026,42 @@ Values: critical, serious, moderate.</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#intended_purpose"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#intended_purpose"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#is_active"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#is_active"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#is_implantable"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#is_implantable"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#is_ivd"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#is_ivd"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#is_reusable"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#is_reusable"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#regulatory_framework"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#regulatory_framework"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
@@ -1072,192 +1073,192 @@ Values: critical, serious, moderate.</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceFailure -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceFailure -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceFailure">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskCategory"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DevicePerformance"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceSafety"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DiagnosticError"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#PatientHarm"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ProductQuality"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceFailure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskCategory"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DevicePerformance"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceSafety"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DiagnosticError"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#PatientHarm"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ProductQuality"/>
         <rdfs:comment xml:lang="en">Risk caused by a device failure</rdfs:comment>
         <rdfs:label xml:lang="en">Device failure</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DevicePerformance -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DevicePerformance -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DevicePerformance">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskCategory"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceSafety"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DiagnosticError"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#PatientHarm"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ProductQuality"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DevicePerformance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskCategory"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceSafety"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DiagnosticError"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#PatientHarm"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ProductQuality"/>
         <rdfs:comment xml:lang="en">Risk related to device performance</rdfs:comment>
         <rdfs:label xml:lang="en">Device performance</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceSafety -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceSafety -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceSafety">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskCategory"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DiagnosticError"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#PatientHarm"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceSafety">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskCategory"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DiagnosticError"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#PatientHarm"/>
         <rdfs:comment xml:lang="en">Risk related to device security</rdfs:comment>
         <rdfs:label xml:lang="en">Device safety</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceType -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType">
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceType">
         <rdfs:comment xml:lang="en">Type of medical device</rdfs:comment>
         <rdfs:label xml:lang="en">Device type</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Diagnostic -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Diagnostic -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Diagnostic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Infection"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Injury"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Interference"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Malfunction"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Material"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Radiation"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Software"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Diagnostic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskType"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Infection"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Injury"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Interference"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Malfunction"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Material"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Radiation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Software"/>
         <rdfs:comment xml:lang="en">Risks associated with the diagnostic</rdfs:comment>
         <rdfs:label xml:lang="en">Diagnostic</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DiagnosticError -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DiagnosticError -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DiagnosticError">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskCategory"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#PatientHarm"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ProductQuality"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DiagnosticError">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskCategory"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#PatientHarm"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ProductQuality"/>
         <rdfs:comment xml:lang="en">Risk associated with diagnostic error</rdfs:comment>
         <rdfs:label xml:lang="en">Diagnostic error</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#HPRA -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#HPRA -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#HPRA">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MHRA"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MPA"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RIVM"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Swissmedic"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#HPRA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CompetentAuthority"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MHRA"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MPA"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RIVM"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Swissmedic"/>
         <rdfs:comment xml:lang="en">Health Products Regulatory Authority</rdfs:comment>
         <rdfs:label>HPRA</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Implantable -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Implantable -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Implantable">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ImplantableActive"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#InVitroDiagnostic"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SelfTest"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SingleUse"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Implantable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceType"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ImplantableActive"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#InVitroDiagnostic"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SelfTest"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SingleUse"/>
         <rdfs:comment xml:lang="en">Any device, including partially or wholly absorbed ones, intended to be totally introduced into the human body, or to replace an epithelial/eye surface, via clinical intervention and remain there after the procedure.</rdfs:comment>
         <rdfs:label xml:lang="en">Implantable</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ImplantableActive -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ImplantableActive -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ImplantableActive">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#InVitroDiagnostic"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SelfTest"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SingleUse"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ImplantableActive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceType"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#InVitroDiagnostic"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SelfTest"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SingleUse"/>
         <rdfs:comment xml:lang="en">A powered device introduced totally or partially into the body via surgery or medical intervention (including natural orifices) and intended to remain there after the procedure.</rdfs:comment>
         <rdfs:label xml:lang="en">Implantable active</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#InSitu -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#InSitu -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#InSitu">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActionType"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Recall"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SafetyAlert"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#UserNotice"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#InSitu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActionType"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Recall"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SafetyAlert"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#UserNotice"/>
         <rdfs:comment xml:lang="en">An action taken to address a product problem while the device remains at the healthcare facility or user location</rdfs:comment>
         <rdfs:label xml:lang="en">In Situ</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#InVitroDiagnostic -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#InVitroDiagnostic -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#InVitroDiagnostic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SelfTest"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SingleUse"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#InVitroDiagnostic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceType"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SelfTest"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SingleUse"/>
         <rdfs:comment xml:lang="en">Any reagent, instrument, software, or kit used in vitro to examine specimens from the human body, such as blood or tissue, to provide information on health status, illnesses, or congenital impairments.</rdfs:comment>
         <rdfs:label xml:lang="en">In vitro diagnostic</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident">
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasDevice"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasDevice"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasIncidentType"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasIncidentType"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#IncidentType"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#IncidentType"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRisk"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRisk"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Risk"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#reportingBy"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#reportingBy"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Manufacturer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1269,56 +1270,56 @@ Values: critical, serious, moderate.</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#corrective_action_taken"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#corrective_action_taken"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#detection_date"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#detection_date"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_incident_ref"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#eudamed_incident_ref"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#event_date"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#event_date"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#outcome"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#outcome"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#patient_age"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#patient_age"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#patient_sex"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#patient_sex"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#report_date"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#report_date"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
             </owl:Restriction>
@@ -1330,114 +1331,114 @@ Values: critical, serious, moderate.</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#IncidentType -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#IncidentType -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#IncidentType">
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#IncidentType">
         <rdfs:comment xml:lang="en">Type of incident</rdfs:comment>
         <rdfs:label xml:lang="en">Incident type</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Infection -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Infection -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Infection">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Injury"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Interference"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Malfunction"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Material"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Radiation"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Software"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Infection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskType"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Injury"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Interference"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Malfunction"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Material"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Radiation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Software"/>
         <rdfs:comment xml:lang="en">Risks caused by an infection</rdfs:comment>
         <rdfs:label xml:lang="en">Infection</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Injury -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Injury -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Injury">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Interference"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Malfunction"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Material"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Radiation"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Software"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Injury">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskType"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Interference"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Malfunction"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Material"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Radiation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Software"/>
         <rdfs:comment xml:lang="en">Risks caused by an injury</rdfs:comment>
         <rdfs:label xml:lang="en">Injury</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Interference -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Interference -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Interference">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Malfunction"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Material"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Radiation"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Software"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Interference">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskType"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Malfunction"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Material"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Radiation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Software"/>
         <rdfs:comment xml:lang="en">Risks caused by interference</rdfs:comment>
         <rdfs:label xml:lang="en">Interference</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MHRA -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MHRA -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MHRA">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MPA"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RIVM"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Swissmedic"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MHRA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CompetentAuthority"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MPA"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RIVM"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Swissmedic"/>
         <rdfs:comment xml:lang="en">Medicines and Healthcare products Regulatory Agency</rdfs:comment>
         <rdfs:label>MHRA</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MPA -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MPA -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MPA">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RIVM"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Swissmedic"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MPA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CompetentAuthority"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RIVM"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Swissmedic"/>
         <rdfs:comment xml:lang="en">Medical Products Agency</rdfs:comment>
         <rdfs:label>MPA</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Malfunction -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Malfunction -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Malfunction">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Material"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Radiation"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Software"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Malfunction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskType"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Material"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Radiation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Software"/>
         <rdfs:comment xml:lang="en">Risks caused by a malfunction</rdfs:comment>
         <rdfs:label xml:lang="en">Malfunction</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Manufacturer -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer">
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Manufacturer">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorizedBy"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#authorizedBy"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CompetentAuthority"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1463,14 +1464,14 @@ Values: critical, serious, moderate.</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorization_number"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#authorization_number"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_srn"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#eudamed_srn"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
@@ -1481,125 +1482,125 @@ Values: critical, serious, moderate.</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Material -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Material -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Material">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Radiation"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Software"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Material">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskType"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Radiation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Software"/>
         <rdfs:comment xml:lang="en">Risks caused by material</rdfs:comment>
         <rdfs:label xml:lang="en">Material</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#NearMiss -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#NearMiss -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#NearMiss">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#IncidentType"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Serious"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#NearMiss">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#IncidentType"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Serious"/>
         <rdfs:comment xml:lang="en">It is an unplanned event that had the potential to cause, but did not result in, patient harm, injury, or damage, often due to luck or timely interception</rdfs:comment>
         <rdfs:label xml:lang="en">Near miss</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Open -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Open -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Open">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActionStatus"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Open">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActionStatus"/>
         <rdfs:comment xml:lang="en">Corrective action is open</rdfs:comment>
         <rdfs:label xml:lang="en">Open</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#PatientHarm -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#PatientHarm -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#PatientHarm">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskCategory"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ProductQuality"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#PatientHarm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskCategory"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ProductQuality"/>
         <rdfs:comment xml:lang="en">Risk that could cause harm to the patient</rdfs:comment>
         <rdfs:label xml:lang="en">Patient harm</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ProductQuality -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ProductQuality -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ProductQuality">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskCategory"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ProductQuality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskCategory"/>
         <rdfs:comment xml:lang="en">Risk related to a decline in the device&apos;s quality</rdfs:comment>
         <rdfs:label xml:lang="en">Product quality</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RIVM -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RIVM -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RIVM">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Swissmedic"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RIVM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CompetentAuthority"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Swissmedic"/>
         <rdfs:comment xml:lang="de">Rijksinstituut voor Volksgezondheid en Milieu</rdfs:comment>
         <rdfs:label>RIVM</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Radiation -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Radiation -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Radiation">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Software"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Radiation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskType"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Software"/>
         <rdfs:comment xml:lang="en">Risks caused by a radiation</rdfs:comment>
         <rdfs:label xml:lang="en">Radiation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Recall -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Recall -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Recall">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActionType"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SafetyAlert"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#UserNotice"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Recall">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActionType"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SafetyAlert"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#UserNotice"/>
         <rdfs:comment xml:lang="en">It is a manufacturer’s action to fix, return, or destroy a medical device after it has left their control due to risks to safety, performance, or regulatory compliance</rdfs:comment>
         <rdfs:label xml:lang="en">Recall</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Risk -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk">
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Risk">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasAffectedDeviceType"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasAffectedDeviceType"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceType"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskCategory"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRiskCategory"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskCategory"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskCategory"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskType"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRiskType"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskType"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1618,21 +1619,21 @@ Values: critical, serious, moderate.</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#imdrf_code"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#imdrf_code"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#probability"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#probability"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#severity"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#severity"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
@@ -1643,109 +1644,109 @@ Values: critical, serious, moderate.</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskCategory -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskCategory -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskCategory">
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskCategory">
         <rdfs:comment xml:lang="en">Risk category class</rdfs:comment>
         <rdfs:label xml:lang="en">Risk category</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskClass -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskClass -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskClass">
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskClass">
         <rdfs:comment xml:lang="en">Class of risk by MDR</rdfs:comment>
         <rdfs:label xml:lang="en">Risk class</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskType -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType">
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskType">
         <rdfs:comment xml:lang="en">Risk type class</rdfs:comment>
         <rdfs:label xml:lang="en">Risk type</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SafetyAlert -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SafetyAlert -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SafetyAlert">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActionType"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#UserNotice"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SafetyAlert">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActionType"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#UserNotice"/>
         <rdfs:comment>It is a mandatory communication sent by a medical device manufacturer to users (hospitals, doctors, patients) to prevent or reduce the risk of a serious incident with a device that is already on the market</rdfs:comment>
         <rdfs:label xml:lang="en">Safety alert</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SelfTest -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SelfTest -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SelfTest">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SingleUse"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SelfTest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceType"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SingleUse"/>
         <rdfs:comment xml:lang="en">It is an in vitro diagnostic medical device intended by the manufacturer for use by laypersons in a home environment.</rdfs:comment>
         <rdfs:label xml:lang="en">Self test</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Serious -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Serious -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Serious">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#IncidentType"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Serious">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#IncidentType"/>
         <rdfs:comment xml:lang="en">It is defined as any incident involving a device that directly or indirectly led, might have led, or might lead to the death of a patient/user, a serious deterioration in health (temporary/permanent), or a serious public health threat. It includes malfunctions, performance issues, and use errors.</rdfs:comment>
         <rdfs:label xml:lang="en">Serious</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SingleUse -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SingleUse -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SingleUse">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SingleUse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceType"/>
         <rdfs:comment xml:lang="en">It is defined as a device intended to be used on one individual patient during a single procedure and then discarded. They are not intended to be reprocessed or reused.</rdfs:comment>
         <rdfs:label xml:lang="en">Single use</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Software -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Software -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Software">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Software">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskType"/>
         <rdfs:comment xml:lang="en">Risks caused by software</rdfs:comment>
         <rdfs:label xml:lang="en">Software</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Swissmedic -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Swissmedic -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Swissmedic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Swissmedic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CompetentAuthority"/>
         <rdfs:comment xml:lang="en">Swiss authority</rdfs:comment>
         <rdfs:label xml:lang="en">Swissmedic</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#UserNotice -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#UserNotice -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#UserNotice">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActionType"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#UserNotice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActionType"/>
         <rdfs:comment xml:lang="en">It is an official communication from a manufacturer to users informing them of a safety risk with a medical device and providing instructions to prevent harm.</rdfs:comment>
         <rdfs:label xml:lang="en">User notice</rdfs:label>
     </owl:Class>
@@ -1764,200 +1765,200 @@ Values: critical, serious, moderate.</rdfs:comment>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DEV-001 -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DEV-001 -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DEV-001">
-        <rdf:type rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DEV-001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device"/>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasDeviceType"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasDeviceType"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ImplantableActive"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ImplantableActive"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskClass"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRiskClass"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassIII"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassIII"/>
             </owl:Restriction>
         </rdf:type>
-        <clasificacion_MDR_IVDR:hasManufacturer rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MAN-001"/>
+        <hasManufacturer rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MAN-001"/>
         <schema:name>HeartMate 3 LVAD</schema:name>
-        <clasificacion_MDR_IVDR:intended_purpose>Ventricular assist device for end-stage heart failure</clasificacion_MDR_IVDR:intended_purpose>
-        <clasificacion_MDR_IVDR:is_active rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</clasificacion_MDR_IVDR:is_active>
-        <clasificacion_MDR_IVDR:is_implantable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</clasificacion_MDR_IVDR:is_implantable>
-        <clasificacion_MDR_IVDR:is_ivd rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</clasificacion_MDR_IVDR:is_ivd>
-        <clasificacion_MDR_IVDR:is_reusable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</clasificacion_MDR_IVDR:is_reusable>
-        <clasificacion_MDR_IVDR:regulatory_framework>MDR</clasificacion_MDR_IVDR:regulatory_framework>
-        <clasificacion_MDR_IVDR:udi_di>(01)00380740009095</clasificacion_MDR_IVDR:udi_di>
+        <intended_purpose>Ventricular assist device for end-stage heart failure</intended_purpose>
+        <is_active rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</is_active>
+        <is_implantable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</is_implantable>
+        <is_ivd rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_ivd>
+        <is_reusable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_reusable>
+        <regulatory_framework>MDR</regulatory_framework>
+        <udi_di>(01)00380740009095</udi_di>
         <rdfs:comment xml:lang="en">First device classfied</rdfs:comment>
         <rdfs:label xml:lang="en">Device 1</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#FSCA-001 -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#FSCA-001 -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#FSCA-001">
-        <rdf:type rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CorrectiveAction"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#FSCA-001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CorrectiveAction"/>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasActionStatus"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasActionStatus"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Open"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Open"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasActionType"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasActionType"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SafetyAlert"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SafetyAlert"/>
             </owl:Restriction>
         </rdf:type>
-        <clasificacion_MDR_IVDR:hasIncident rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#INC-001"/>
+        <hasIncident rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#INC-001"/>
         <schema:description>Safety alert issued to all implanting centres regarding anticoagulation protocol update for HeartMate 3 to reduce device thrombosis risk. INR target range revised to 2.0â€“3.0</schema:description>
-        <clasificacion_MDR_IVDR:action_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-01</clasificacion_MDR_IVDR:action_date>
-        <clasificacion_MDR_IVDR:devices_affected rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">850</clasificacion_MDR_IVDR:devices_affected>
-        <clasificacion_MDR_IVDR:eudamed_fsca_ref>EU-FSCA-2024-000001</clasificacion_MDR_IVDR:eudamed_fsca_ref>
-        <clasificacion_MDR_IVDR:scope>All HeartMate 3 LVAD units implanted since 2020</clasificacion_MDR_IVDR:scope>
+        <action_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-01</action_date>
+        <devices_affected rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">850</devices_affected>
+        <eudamed_fsca_ref>EU-FSCA-2024-000001</eudamed_fsca_ref>
+        <scope>All HeartMate 3 LVAD units implanted since 2020</scope>
         <rdfs:comment xml:lang="en">First corrective action</rdfs:comment>
         <rdfs:label xml:lang="en">Corrective action 1</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#INC-001 -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#INC-001 -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#INC-001">
-        <rdf:type rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#INC-001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"/>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasIncidentType"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasIncidentType"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Serious"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Serious"/>
             </owl:Restriction>
         </rdf:type>
-        <clasificacion_MDR_IVDR:hasDevice rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DEV-001"/>
-        <clasificacion_MDR_IVDR:hasRisk rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RSK-003"/>
-        <clasificacion_MDR_IVDR:reportingBy rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MAN-001"/>
+        <hasDevice rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DEV-001"/>
+        <hasRisk rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RSK-003"/>
+        <reportingBy rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MAN-001"/>
         <schema:description>Patient implanted with HeartMate 3 LVAD developed ischemic stroke 6 months post-implant. Device thrombus confirmed by echocardiography</schema:description>
         <schema:location>Germany</schema:location>
-        <clasificacion_MDR_IVDR:corrective_action_taken rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</clasificacion_MDR_IVDR:corrective_action_taken>
-        <clasificacion_MDR_IVDR:detection_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-10</clasificacion_MDR_IVDR:detection_date>
-        <clasificacion_MDR_IVDR:eudamed_incident_ref>EU-INC-2024-000001</clasificacion_MDR_IVDR:eudamed_incident_ref>
-        <clasificacion_MDR_IVDR:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-08</clasificacion_MDR_IVDR:event_date>
-        <clasificacion_MDR_IVDR:outcome>Serious patient injury - embolic stroke</clasificacion_MDR_IVDR:outcome>
-        <clasificacion_MDR_IVDR:patient_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58</clasificacion_MDR_IVDR:patient_age>
-        <clasificacion_MDR_IVDR:patient_sex>Male</clasificacion_MDR_IVDR:patient_sex>
-        <clasificacion_MDR_IVDR:report_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-15</clasificacion_MDR_IVDR:report_date>
+        <corrective_action_taken rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</corrective_action_taken>
+        <detection_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-10</detection_date>
+        <eudamed_incident_ref>EU-INC-2024-000001</eudamed_incident_ref>
+        <event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-08</event_date>
+        <outcome>Serious patient injury - embolic stroke</outcome>
+        <patient_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58</patient_age>
+        <patient_sex>Male</patient_sex>
+        <report_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-15</report_date>
         <rdfs:comment xml:lang="en">First incident</rdfs:comment>
         <rdfs:label xml:lang="en">Incident 1</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MAN-001 -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MAN-001 -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MAN-001">
-        <rdf:type rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MAN-001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Manufacturer"/>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorizedBy"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#authorizedBy"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#HPRA"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#HPRA"/>
             </owl:Restriction>
         </rdf:type>
         <schema:email>regulatory@medtronic.com</schema:email>
         <schema:location>Ireland</schema:location>
         <schema:name>Medtronic plc</schema:name>
-        <clasificacion_MDR_IVDR:authorization_number>IE/2017/001234</clasificacion_MDR_IVDR:authorization_number>
-        <clasificacion_MDR_IVDR:eudamed_srn>SRN-IE-MED-0001</clasificacion_MDR_IVDR:eudamed_srn>
+        <authorization_number>IE/2017/001234</authorization_number>
+        <eudamed_srn>SRN-IE-MED-0001</eudamed_srn>
         <rdfs:comment xml:lang="en">First manufacturer</rdfs:comment>
         <rdfs:label xml:lang="en">Manufacturer 1</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RSK-001 -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RSK-001 -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RSK-001">
-        <rdf:type rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RSK-001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Risk"/>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasAffectedDeviceType"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasAffectedDeviceType"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Active"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Active"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskCategory"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRiskCategory"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceFailure"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceFailure"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskType"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRiskType"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Malfunction"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Malfunction"/>
             </owl:Restriction>
         </rdf:type>
         <schema:description>Complete loss of electrical function leading to device shutdown</schema:description>
         <schema:name>Device failure - electrical</schema:name>
-        <clasificacion_MDR_IVDR:imdrf_code>A0101</clasificacion_MDR_IVDR:imdrf_code>
-        <clasificacion_MDR_IVDR:probability>Low</clasificacion_MDR_IVDR:probability>
-        <clasificacion_MDR_IVDR:severity>Critical</clasificacion_MDR_IVDR:severity>
+        <imdrf_code>A0101</imdrf_code>
+        <probability>Low</probability>
+        <severity>Critical</severity>
         <rdfs:comment xml:lang="en">First risk</rdfs:comment>
         <rdfs:label xml:lang="en">Risk 1</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RSK-003 -->
+    <!-- http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RSK-003 -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RSK-003">
-        <rdf:type rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RSK-003">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Risk"/>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasAffectedDeviceType"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasAffectedDeviceType"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ImplantableActive"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ImplantableActive"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskCategory"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRiskCategory"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#PatientHarm"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#PatientHarm"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskType"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRiskType"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Injury"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Injury"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#imdrf_code"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#imdrf_code"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdf:type>
         <schema:description>Thrombus formation on device surface causing embolic events</schema:description>
         <schema:name>Thrombosis - device-related</schema:name>
-        <clasificacion_MDR_IVDR:imdrf_code>A0201</clasificacion_MDR_IVDR:imdrf_code>
-        <clasificacion_MDR_IVDR:probability>Low</clasificacion_MDR_IVDR:probability>
-        <clasificacion_MDR_IVDR:severity>Critical</clasificacion_MDR_IVDR:severity>
+        <imdrf_code>A0201</imdrf_code>
+        <probability>Low</probability>
+        <severity>Critical</severity>
         <rdfs:comment xml:lang="en">Third risk</rdfs:comment>
         <rdfs:label xml:lang="en">Risk 3</rdfs:label>
     </owl:NamedIndividual>

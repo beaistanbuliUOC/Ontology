@@ -2,10 +2,10 @@
   "@id" : "_:genid1",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActionStatus"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActionStatus"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasActionStatus"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasActionStatus"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -15,10 +15,10 @@
   "@id" : "_:genid10",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceType"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasDeviceType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasDeviceType"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -28,10 +28,10 @@
   "@id" : "_:genid11",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Manufacturer"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasManufacturer"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasManufacturer"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -41,10 +41,10 @@
   "@id" : "_:genid12",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskClass"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskClass"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskClass"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRiskClass"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -70,7 +70,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#intended_purpose"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#intended_purpose"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -83,7 +83,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#is_active"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#is_active"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -96,7 +96,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#is_implantable"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#is_implantable"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -109,7 +109,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#is_ivd"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#is_ivd"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -122,7 +122,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#is_reusable"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#is_reusable"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -135,7 +135,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#regulatory_framework"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#regulatory_framework"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -145,10 +145,10 @@
   "@id" : "_:genid2",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActionType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActionType"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasActionType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasActionType"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -158,10 +158,10 @@
   "@id" : "_:genid20",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasDevice"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasDevice"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -171,10 +171,10 @@
   "@id" : "_:genid21",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#IncidentType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#IncidentType"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasIncidentType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasIncidentType"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -184,10 +184,10 @@
   "@id" : "_:genid22",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Risk"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRisk"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRisk"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -197,10 +197,10 @@
   "@id" : "_:genid23",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Manufacturer"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#reportingBy"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#reportingBy"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -226,7 +226,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#corrective_action_taken"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#corrective_action_taken"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -239,7 +239,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#detection_date"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#detection_date"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -252,7 +252,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_incident_ref"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#eudamed_incident_ref"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -265,7 +265,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#event_date"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#event_date"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -278,7 +278,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#outcome"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#outcome"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -288,10 +288,10 @@
   "@id" : "_:genid3",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasIncident"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasIncident"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -304,7 +304,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#patient_age"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#patient_age"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -317,7 +317,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#patient_sex"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#patient_sex"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -330,7 +330,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#report_date"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#report_date"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -340,10 +340,10 @@
   "@id" : "_:genid33",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CompetentAuthority"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorizedBy"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#authorizedBy"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -395,7 +395,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorization_number"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#authorization_number"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -408,7 +408,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_srn"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#eudamed_srn"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -418,10 +418,10 @@
   "@id" : "_:genid39",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceType"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasAffectedDeviceType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasAffectedDeviceType"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -434,16 +434,16 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#closure_date"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#closure_date"
   } ]
 }, {
   "@id" : "_:genid40",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskCategory"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskCategory"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskCategory"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRiskCategory"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -453,10 +453,10 @@
   "@id" : "_:genid41",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskType"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRiskType"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -495,7 +495,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#imdrf_code"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#imdrf_code"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -508,7 +508,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#probability"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#probability"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -521,7 +521,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#severity"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#severity"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -531,10 +531,10 @@
   "@id" : "_:genid47",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ImplantableActive"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ImplantableActive"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasDeviceType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasDeviceType"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -544,10 +544,10 @@
   "@id" : "_:genid48",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassIII"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassIII"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskClass"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRiskClass"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -557,10 +557,10 @@
   "@id" : "_:genid49",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Open"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Open"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasActionStatus"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasActionStatus"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -583,10 +583,10 @@
   "@id" : "_:genid50",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SafetyAlert"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SafetyAlert"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasActionType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasActionType"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -596,10 +596,10 @@
   "@id" : "_:genid51",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Serious"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Serious"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasIncidentType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasIncidentType"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -609,10 +609,10 @@
   "@id" : "_:genid52",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#HPRA"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#HPRA"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorizedBy"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#authorizedBy"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -622,10 +622,10 @@
   "@id" : "_:genid53",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Active"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Active"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasAffectedDeviceType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasAffectedDeviceType"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -635,10 +635,10 @@
   "@id" : "_:genid54",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceFailure"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceFailure"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskCategory"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRiskCategory"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -648,10 +648,10 @@
   "@id" : "_:genid55",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Malfunction"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Malfunction"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRiskType"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -661,10 +661,10 @@
   "@id" : "_:genid56",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ImplantableActive"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ImplantableActive"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasAffectedDeviceType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasAffectedDeviceType"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -674,10 +674,10 @@
   "@id" : "_:genid57",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#PatientHarm"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#PatientHarm"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskCategory"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRiskCategory"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -687,10 +687,10 @@
   "@id" : "_:genid58",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Injury"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Injury"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRiskType"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -703,7 +703,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#imdrf_code"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#imdrf_code"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -716,7 +716,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#action_date"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#action_date"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -729,7 +729,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#devices_affected"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#devices_affected"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -742,7 +742,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_fsca_ref"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#eudamed_fsca_ref"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -755,7 +755,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#scope"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#scope"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -845,7 +845,52 @@
   "@id" : "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#AFMPS",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/bibliographicCitation" : [ {
+    "@language" : "en",
+    "@value" : "Beatriz I. S. - Classification of medical devices and in vitro diagnostic devices according to the European MDR and IVDR regulations"
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@language" : "en",
+    "@value" : "2026-04-20"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@language" : "en",
+    "@value" : "Beatriz Istanbouli Sahelieh"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "An ontology designed to map the various high-risk medical devices, as well as in vitro diagnostic devices, in accordance with European regulations under the MDR and IVDR, linking devices to their manufacturers, risks, reported incidents, and corrective actions.\n\nWe do this using the LOT methodology.\n\nPurpose and use case: to standardize and enable interoperability of information from various sources, facilitating market surveillance and, above all, regulatory compliance. With this ontology, we perform logical inferences to automatically identify risk levels or dependencies between incidents and safety actions. It can be useful for a health authority that wants to consult the safety history of a specific device, check risks, the corrective actions taken, and other information about the device."
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@language" : "en",
+    "@value" : "https://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Classification of medical devices and in vitro diagnostic devices according to the European MDR and IVDR regulations"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@language" : "en",
+    "@value" : "mdr"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@language" : "en",
+    "@value" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR/"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR/1.0.0"
+  }, {
+    "@language" : "en",
+    "@value" : "1.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "en",
+    "@value" : "v1.0"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#AFMPS",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr",
@@ -855,25 +900,25 @@
     "@value" : "AFMPS"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CompetentAuthority"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ANSM"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ANSM"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#BfArM"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#BfArM"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#HPRA"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#HPRA"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MHRA"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MHRA"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MPA"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MPA"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RIVM"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RIVM"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Swissmedic"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Swissmedic"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ANSM",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ANSM",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "fr-be",
@@ -883,23 +928,23 @@
     "@value" : "ANSM"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CompetentAuthority"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#BfArM"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#BfArM"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#HPRA"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#HPRA"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MHRA"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MHRA"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MPA"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MPA"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RIVM"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RIVM"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Swissmedic"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Swissmedic"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActionStatus",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActionStatus",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -910,7 +955,7 @@
     "@value" : "Action status"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActionType",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActionType",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -921,7 +966,7 @@
     "@value" : "Action type"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Active",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Active",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "It is any medical device that relies on a source of energy other than that generated directly by the human body or gravity."
@@ -931,23 +976,23 @@
     "@value" : "Active"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceType"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActiveImplant"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActiveImplant"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Implantable"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Implantable"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ImplantableActive"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ImplantableActive"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#InVitroDiagnostic"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#InVitroDiagnostic"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SelfTest"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SelfTest"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SingleUse"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SingleUse"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActiveImplant",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActiveImplant",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -958,21 +1003,21 @@
     "@value" : "Active implant"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceType"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Implantable"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Implantable"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ImplantableActive"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ImplantableActive"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#InVitroDiagnostic"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#InVitroDiagnostic"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SelfTest"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SelfTest"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SingleUse"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SingleUse"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#BfArM",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#BfArM",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
@@ -982,21 +1027,21 @@
     "@value" : "BfArM"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CompetentAuthority"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#HPRA"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#HPRA"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MHRA"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MHRA"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MPA"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MPA"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RIVM"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RIVM"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Swissmedic"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Swissmedic"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassI",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassI",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1007,17 +1052,17 @@
     "@value" : "Class I"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskClass"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskClass"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassIII"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassIII"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassIIa"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassIIa"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassIIb"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassIIb"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassIII",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassIII",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1028,15 +1073,15 @@
     "@value" : "Class III"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskClass"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskClass"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassIIa"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassIIa"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassIIb"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassIIb"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassIIa",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassIIa",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1047,13 +1092,13 @@
     "@value" : "Class IIa"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskClass"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskClass"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassIIb"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassIIb"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ClassIIb",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ClassIIb",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1064,10 +1109,10 @@
     "@value" : "Class IIb"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskClass"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskClass"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Closed",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Closed",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1078,13 +1123,13 @@
     "@value" : "Closed"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActionStatus"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActionStatus"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Open"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Open"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CompetentAuthority",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1095,7 +1140,7 @@
     "@value" : "Competent authority"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Contamination",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Contamination",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1106,29 +1151,29 @@
     "@value" : "Contamination"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskType"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Cybersecurity"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Cybersecurity"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Diagnostic"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Diagnostic"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Infection"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Infection"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Injury"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Injury"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Interference"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Interference"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Malfunction"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Malfunction"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Material"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Material"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Radiation"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Radiation"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Software"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Software"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CorrectiveAction",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CorrectiveAction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1143,6 +1188,8 @@
     "@value" : "http://dbpedia.org/resource/Corrective_and_preventive_action"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CompetentAuthority"
+  }, {
     "@id" : "_:genid1"
   }, {
     "@id" : "_:genid2"
@@ -1162,7 +1209,7 @@
     "@id" : "_:genid9"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Cybersecurity",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Cybersecurity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1173,61 +1220,61 @@
     "@value" : "Cybersecurity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskType"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Diagnostic"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Diagnostic"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Infection"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Infection"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Injury"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Injury"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Interference"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Interference"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Malfunction"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Malfunction"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Material"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Material"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Radiation"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Radiation"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Software"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Software"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DEV-001",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DEV-001",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://schema.org/name" : [ {
     "@value" : "HeartMate 3 LVAD"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasManufacturer" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MAN-001"
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasManufacturer" : [ {
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MAN-001"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#intended_purpose" : [ {
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#intended_purpose" : [ {
     "@value" : "Ventricular assist device for end-stage heart failure"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#is_active" : [ {
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#is_active" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
     "@value" : "true"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#is_implantable" : [ {
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#is_implantable" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
     "@value" : "true"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#is_ivd" : [ {
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#is_ivd" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
     "@value" : "false"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#is_reusable" : [ {
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#is_reusable" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
     "@value" : "false"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#regulatory_framework" : [ {
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#regulatory_framework" : [ {
     "@value" : "MDR"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#udi_di" : [ {
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#udi_di" : [ {
     "@value" : "(01)00380740009095"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device"
   }, {
     "@id" : "_:genid47"
   }, {
@@ -1242,7 +1289,7 @@
     "@value" : "Device 1"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1278,7 +1325,7 @@
     "@id" : "_:genid19"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceFailure",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceFailure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1289,21 +1336,21 @@
     "@value" : "Device failure"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskCategory"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskCategory"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DevicePerformance"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DevicePerformance"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceSafety"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceSafety"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DiagnosticError"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DiagnosticError"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#PatientHarm"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#PatientHarm"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ProductQuality"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ProductQuality"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DevicePerformance",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DevicePerformance",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1314,19 +1361,19 @@
     "@value" : "Device performance"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskCategory"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskCategory"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceSafety"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceSafety"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DiagnosticError"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DiagnosticError"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#PatientHarm"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#PatientHarm"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ProductQuality"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ProductQuality"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceSafety",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceSafety",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1337,15 +1384,15 @@
     "@value" : "Device safety"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskCategory"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskCategory"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DiagnosticError"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DiagnosticError"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#PatientHarm"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#PatientHarm"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceType",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1356,7 +1403,7 @@
     "@value" : "Device type"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Diagnostic",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Diagnostic",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1367,25 +1414,25 @@
     "@value" : "Diagnostic"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskType"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Infection"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Infection"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Injury"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Injury"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Interference"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Interference"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Malfunction"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Malfunction"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Material"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Material"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Radiation"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Radiation"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Software"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Software"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DiagnosticError",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DiagnosticError",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1396,38 +1443,38 @@
     "@value" : "Diagnostic error"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskCategory"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskCategory"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#PatientHarm"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#PatientHarm"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ProductQuality"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ProductQuality"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#FSCA-001",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#FSCA-001",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://schema.org/description" : [ {
     "@value" : "Safety alert issued to all implanting centres regarding anticoagulation protocol update for HeartMate 3 to reduce device thrombosis risk. INR target range revised to 2.0â€“3.0"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#action_date" : [ {
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#action_date" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#date",
     "@value" : "2024-02-01"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#devices_affected" : [ {
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#devices_affected" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "850"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_fsca_ref" : [ {
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#eudamed_fsca_ref" : [ {
     "@value" : "EU-FSCA-2024-000001"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasIncident" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#INC-001"
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasIncident" : [ {
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#INC-001"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#scope" : [ {
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#scope" : [ {
     "@value" : "All HeartMate 3 LVAD units implanted since 2020"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CorrectiveAction"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CorrectiveAction"
   }, {
     "@id" : "_:genid49"
   }, {
@@ -1442,7 +1489,7 @@
     "@value" : "Corrective action 1"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#HPRA",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#HPRA",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1452,19 +1499,19 @@
     "@value" : "HPRA"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CompetentAuthority"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MHRA"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MHRA"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MPA"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MPA"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RIVM"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RIVM"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Swissmedic"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Swissmedic"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#INC-001",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#INC-001",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://schema.org/description" : [ {
     "@value" : "Patient implanted with HeartMate 3 LVAD developed ischemic stroke 6 months post-implant. Device thrombus confirmed by echocardiography"
@@ -1472,46 +1519,46 @@
   "http://schema.org/location" : [ {
     "@value" : "Germany"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#corrective_action_taken" : [ {
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#corrective_action_taken" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
     "@value" : "true"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#detection_date" : [ {
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#detection_date" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#date",
     "@value" : "2024-01-10"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_incident_ref" : [ {
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#eudamed_incident_ref" : [ {
     "@value" : "EU-INC-2024-000001"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#event_date" : [ {
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#event_date" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#date",
     "@value" : "2024-01-08"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasDevice" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DEV-001"
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasDevice" : [ {
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DEV-001"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRisk" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RSK-003"
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRisk" : [ {
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RSK-003"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#outcome" : [ {
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#outcome" : [ {
     "@value" : "Serious patient injury - embolic stroke"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#patient_age" : [ {
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#patient_age" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "58"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#patient_sex" : [ {
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#patient_sex" : [ {
     "@value" : "Male"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#report_date" : [ {
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#report_date" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#date",
     "@value" : "2024-01-15"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#reportingBy" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MAN-001"
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#reportingBy" : [ {
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MAN-001"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"
   }, {
     "@id" : "_:genid51"
   } ],
@@ -1524,7 +1571,7 @@
     "@value" : "Incident 1"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Implantable",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Implantable",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1535,19 +1582,19 @@
     "@value" : "Implantable"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceType"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ImplantableActive"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ImplantableActive"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#InVitroDiagnostic"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#InVitroDiagnostic"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SelfTest"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SelfTest"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SingleUse"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SingleUse"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ImplantableActive",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ImplantableActive",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1558,17 +1605,17 @@
     "@value" : "Implantable active"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceType"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#InVitroDiagnostic"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#InVitroDiagnostic"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SelfTest"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SelfTest"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SingleUse"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SingleUse"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#InSitu",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#InSitu",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1579,17 +1626,17 @@
     "@value" : "In Situ"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActionType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActionType"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Recall"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Recall"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SafetyAlert"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SafetyAlert"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#UserNotice"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#UserNotice"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#InVitroDiagnostic",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#InVitroDiagnostic",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1600,15 +1647,15 @@
     "@value" : "In vitro diagnostic"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceType"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SelfTest"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SelfTest"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SingleUse"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SingleUse"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1650,7 +1697,7 @@
     "@id" : "_:genid32"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#IncidentType",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#IncidentType",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1661,7 +1708,7 @@
     "@value" : "Incident type"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Infection",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Infection",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1672,23 +1719,23 @@
     "@value" : "Infection"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskType"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Injury"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Injury"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Interference"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Interference"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Malfunction"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Malfunction"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Material"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Material"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Radiation"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Radiation"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Software"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Software"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Injury",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Injury",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1699,21 +1746,21 @@
     "@value" : "Injury"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskType"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Interference"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Interference"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Malfunction"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Malfunction"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Material"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Material"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Radiation"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Radiation"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Software"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Software"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Interference",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Interference",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1724,19 +1771,19 @@
     "@value" : "Interference"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskType"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Malfunction"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Malfunction"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Material"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Material"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Radiation"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Radiation"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Software"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Software"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MAN-001",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MAN-001",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://schema.org/email" : [ {
     "@value" : "regulatory@medtronic.com"
@@ -1747,14 +1794,14 @@
   "http://schema.org/name" : [ {
     "@value" : "Medtronic plc"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorization_number" : [ {
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#authorization_number" : [ {
     "@value" : "IE/2017/001234"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_srn" : [ {
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#eudamed_srn" : [ {
     "@value" : "SRN-IE-MED-0001"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Manufacturer"
   }, {
     "@id" : "_:genid52"
   } ],
@@ -1767,7 +1814,7 @@
     "@value" : "Manufacturer 1"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MHRA",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MHRA",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1777,17 +1824,17 @@
     "@value" : "MHRA"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CompetentAuthority"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MPA"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MPA"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RIVM"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RIVM"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Swissmedic"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Swissmedic"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#MPA",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#MPA",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1797,15 +1844,15 @@
     "@value" : "MPA"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CompetentAuthority"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RIVM"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RIVM"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Swissmedic"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Swissmedic"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Malfunction",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Malfunction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1816,17 +1863,17 @@
     "@value" : "Malfunction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskType"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Material"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Material"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Radiation"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Radiation"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Software"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Software"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Manufacturer",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1850,7 +1897,7 @@
     "@id" : "_:genid38"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Material",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Material",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1861,15 +1908,15 @@
     "@value" : "Material"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskType"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Radiation"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Radiation"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Software"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Software"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#NearMiss",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#NearMiss",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1880,13 +1927,13 @@
     "@value" : "Near miss"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#IncidentType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#IncidentType"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Serious"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Serious"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Open",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Open",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1897,10 +1944,10 @@
     "@value" : "Open"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActionStatus"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActionStatus"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#PatientHarm",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#PatientHarm",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1911,13 +1958,13 @@
     "@value" : "Patient harm"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskCategory"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskCategory"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ProductQuality"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ProductQuality"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ProductQuality",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ProductQuality",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1928,10 +1975,10 @@
     "@value" : "Product quality"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskCategory"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskCategory"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RIVM",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RIVM",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
@@ -1941,13 +1988,13 @@
     "@value" : "RIVM"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CompetentAuthority"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Swissmedic"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Swissmedic"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RSK-001",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RSK-001",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://schema.org/description" : [ {
     "@value" : "Complete loss of electrical function leading to device shutdown"
@@ -1955,17 +2002,17 @@
   "http://schema.org/name" : [ {
     "@value" : "Device failure - electrical"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#imdrf_code" : [ {
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#imdrf_code" : [ {
     "@value" : "A0101"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#probability" : [ {
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#probability" : [ {
     "@value" : "Low"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#severity" : [ {
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#severity" : [ {
     "@value" : "Critical"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Risk"
   }, {
     "@id" : "_:genid53"
   }, {
@@ -1982,7 +2029,7 @@
     "@value" : "Risk 1"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RSK-003",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RSK-003",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://schema.org/description" : [ {
     "@value" : "Thrombus formation on device surface causing embolic events"
@@ -1990,17 +2037,17 @@
   "http://schema.org/name" : [ {
     "@value" : "Thrombosis - device-related"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#imdrf_code" : [ {
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#imdrf_code" : [ {
     "@value" : "A0201"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#probability" : [ {
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#probability" : [ {
     "@value" : "Low"
   } ],
-  "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#severity" : [ {
+  "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#severity" : [ {
     "@value" : "Critical"
   } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Risk"
   }, {
     "@id" : "_:genid56"
   }, {
@@ -2019,7 +2066,7 @@
     "@value" : "Risk 3"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Radiation",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Radiation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2030,13 +2077,13 @@
     "@value" : "Radiation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskType"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Software"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Software"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Recall",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Recall",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2047,15 +2094,15 @@
     "@value" : "Recall"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActionType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActionType"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SafetyAlert"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SafetyAlert"
   }, {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#UserNotice"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#UserNotice"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Risk",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2083,7 +2130,7 @@
     "@id" : "_:genid46"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskCategory",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskCategory",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2094,7 +2141,7 @@
     "@value" : "Risk category"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskClass",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskClass",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2105,7 +2152,7 @@
     "@value" : "Risk class"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskType",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2116,7 +2163,7 @@
     "@value" : "Risk type"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SafetyAlert",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SafetyAlert",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "It is a mandatory communication sent by a medical device manufacturer to users (hospitals, doctors, patients) to prevent or reduce the risk of a serious incident with a device that is already on the market"
@@ -2126,13 +2173,13 @@
     "@value" : "Safety alert"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActionType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActionType"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#UserNotice"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#UserNotice"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SelfTest",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SelfTest",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2143,13 +2190,13 @@
     "@value" : "Self test"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceType"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SingleUse"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SingleUse"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Serious",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Serious",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2160,10 +2207,10 @@
     "@value" : "Serious"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#IncidentType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#IncidentType"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#SingleUse",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#SingleUse",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2174,10 +2221,10 @@
     "@value" : "Single use"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceType"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Software",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Software",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2188,10 +2235,10 @@
     "@value" : "Software"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskType"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Swissmedic",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Swissmedic",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2202,10 +2249,10 @@
     "@value" : "Swissmedic"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CompetentAuthority"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#UserNotice",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#UserNotice",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2216,17 +2263,17 @@
     "@value" : "User notice"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActionType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActionType"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#action_date",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#action_date",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The date when corrective action began"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CorrectiveAction"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CorrectiveAction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2236,14 +2283,14 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorization_number",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#authorization_number",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Auth number of the manufacturer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Manufacturer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2253,31 +2300,31 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#authorizedBy",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#authorizedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Relation between a Manufacturer and the corresponding competent authority"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Manufacturer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Authorized by"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CompetentAuthority"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CompetentAuthority"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#closure_date",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#closure_date",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The date when corretive actions end"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CorrectiveAction"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CorrectiveAction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2287,14 +2334,14 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#corrective_action_taken",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#corrective_action_taken",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "If for an incident, corrective actions was taken.\nIt can take value:true or false"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2304,14 +2351,14 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#detection_date",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#detection_date",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The date when incident was detected"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2321,14 +2368,14 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#devices_affected",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#devices_affected",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Number of affected devices"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CorrectiveAction"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CorrectiveAction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2338,14 +2385,14 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_fsca_ref",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#eudamed_fsca_ref",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "EUDAMED FSCA reference"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CorrectiveAction"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CorrectiveAction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2355,14 +2402,14 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_incident_ref",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#eudamed_incident_ref",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "EUDAMED incident reference"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2372,14 +2419,14 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#eudamed_srn",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#eudamed_srn",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "EUDAMED serial registration number"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Manufacturer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2389,14 +2436,14 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#event_date",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#event_date",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The date when incident happened"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2406,218 +2453,218 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasActionStatus",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasActionStatus",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Status of a corrective aciton"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CorrectiveAction"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CorrectiveAction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Has action status?"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActionStatus"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActionStatus"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasActionType",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasActionType",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Type of corrective action applied"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CorrectiveAction"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CorrectiveAction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Has action type?"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#ActionType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#ActionType"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasAffectedDeviceType",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasAffectedDeviceType",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Type of affected device in a specific risk"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Risk"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Has affected device type?"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceType"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasDevice",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasDevice",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Relation between the incident and the medical device"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has device?"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasDeviceType",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasDeviceType",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Type of medical device"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has device type?"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#DeviceType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#DeviceType"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasIncident",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasIncident",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Relation between the corrective action and its incident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CorrectiveAction"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CorrectiveAction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has incident?"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasIncidentType",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasIncidentType",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Type of incident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has incident type?"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#IncidentType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#IncidentType"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasManufacturer",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasManufacturer",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Relation between a device and its incident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has manufacturer?"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Manufacturer"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRisk",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRisk",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Relation between incident and a risk"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has risk?"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Risk"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskCategory",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRiskCategory",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Relation between risk and its category"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Risk"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has risk category?"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskCategory"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskCategory"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskClass",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRiskClass",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Relation between the device and its risk class (important)"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has risk class?"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskClass"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskClass"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#hasRiskType",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#hasRiskType",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Type of risks"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Risk"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has risk type?"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#RiskType"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#RiskType"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#imdrf_code",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#imdrf_code",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "IMDRF code"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Risk"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2627,14 +2674,14 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#intended_purpose",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#intended_purpose",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Intented purpose of a medical device"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2644,14 +2691,14 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#is_active",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#is_active",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "True if the medical is active, false if it is not."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2661,14 +2708,14 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#is_implantable",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#is_implantable",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "True if the medical is implantable, false if it is not."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2678,14 +2725,14 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#is_ivd",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#is_ivd",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "True if the medical is ivd, false if it is not."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2695,14 +2742,14 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#is_reusable",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#is_reusable",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "True if the medical is reusable, false if it is not."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2712,14 +2759,14 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#outcome",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#outcome",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Impact of the incident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2729,14 +2776,14 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#patient_age",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#patient_age",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Age of the registered patient"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2746,14 +2793,14 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#patient_sex",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#patient_sex",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Gender of the registered patient"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2763,14 +2810,14 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#probability",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#probability",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "It can take the next values: high, medium or low"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Risk"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2780,14 +2827,14 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#regulatory_framework",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#regulatory_framework",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "MDR or IVDR, depending on the type of device"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2797,14 +2844,14 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#report_date",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#report_date",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Report date of an incident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2814,31 +2861,31 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#reportingBy",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#reportingBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Relation between incident and its manufacturer"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Incident"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Incident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Reporting by"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Manufacturer"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Manufacturer"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#scope",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#scope",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Actions taken to eliminate the root cause of the incident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#CorrectiveAction"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#CorrectiveAction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2848,14 +2895,14 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#severity",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#severity",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Level of severity of a risk. \nValues: critical, serious, moderate."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Risk"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Risk"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2865,14 +2912,14 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#udi_di",
+  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#udi_di",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Identifier of medical devices"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/3clasificacion_MDR_IVDR#Device"
+    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR#Device"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2880,51 +2927,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
-  "http://purl.org/dc/terms/bibliographicCitation" : [ {
-    "@language" : "en",
-    "@value" : "Beatriz I. S. - Classification of medical devices and in vitro diagnostic devices according to the European MDR and IVDR regulations"
-  } ],
-  "http://purl.org/dc/terms/created" : [ {
-    "@language" : "en",
-    "@value" : "2026-04-20"
-  } ],
-  "http://purl.org/dc/terms/creator" : [ {
-    "@language" : "en",
-    "@value" : "Beatriz Istanbouli Sahelieh"
-  } ],
-  "http://purl.org/dc/terms/description" : [ {
-    "@language" : "en",
-    "@value" : "An ontology designed to map the various high-risk medical devices, as well as in vitro diagnostic devices, in accordance with European regulations under the MDR (medical devices in classes I, IIa, IIb, III) and IVDR (in vitro diagnostic devices in classes A, B, C, D), linking devices to their manufacturers, risks, reported incidents, and corrective actions.\n\nWe do this using the LOT methodology.\n\nPurpose and use case: to standardize and enable interoperability of information from various sources, facilitating market surveillance and, above all, regulatory compliance. With this ontology, we perform logical inferences to automatically identify risk levels or dependencies between incidents and safety actions. It can be useful for a health authority that wants to consult the safety history of a specific device, check risks, the corrective actions taken, and other information about the device."
-  } ],
-  "http://purl.org/dc/terms/license" : [ {
-    "@language" : "en",
-    "@value" : "https://creativecommons.org/licenses/by/4.0/"
-  } ],
-  "http://purl.org/dc/terms/title" : [ {
-    "@language" : "en",
-    "@value" : "Classification of medical devices and in vitro diagnostic devices according to the European MDR and IVDR regulations"
-  } ],
-  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
-    "@language" : "en",
-    "@value" : "mdr"
-  } ],
-  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
-    "@language" : "en",
-    "@value" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR/"
-  } ],
-  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "http://www.semanticweb.org/bea/ontologies/2026/clasification_MDR_IVDR/1.0.0"
-  }, {
-    "@language" : "en",
-    "@value" : "1.0"
-  } ],
-  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
-    "@language" : "en",
-    "@value" : "v1.0"
   } ]
 }, {
   "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
